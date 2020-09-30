@@ -15,11 +15,11 @@ function App() {
   return (
     <div className="App">
       <TopNavbar></TopNavbar>
-      <Footer></Footer>
       <MissionSection></MissionSection>
       <TechnologySection></TechnologySection>
       <TeamSection></TeamSection>
       <ContactSection></ContactSection>
+      <Footer></Footer>
     </div>
   );
 }

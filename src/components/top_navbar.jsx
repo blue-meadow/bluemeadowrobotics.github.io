@@ -7,7 +7,7 @@ import Nav from 'react-bootstrap/Nav';
 class TopNavbar extends Component {
   render() {
     return (
-      <Navbar collapseOnSelect expand="lg" className="BackgroundWhite" variant="light" sticky="top">
+      <Navbar collapseOnSelect expand="lg" className="BackgroundWhite" variant="light" sticky="top" id="bluemeadow-navbar">
         <Navbar.Brand href="/" className="FontMonospace">BLUE MEADOW</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
         <Navbar.Collapse id="responsive-navbar-nav">
