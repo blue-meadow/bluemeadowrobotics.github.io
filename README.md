@@ -1,4 +1,4 @@
-# Blue Meadow Public Website
+# Landing Page
 
 # Setup
 ```bash
