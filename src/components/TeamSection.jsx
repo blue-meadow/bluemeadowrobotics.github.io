@@ -49,7 +49,7 @@ class TeamCardMilo extends Component {
             <Card.Text>
               Milo earned his B.S in Computer Science and M.Eng in Artificial Intelligence at MIT,
               where his research focused on robotic perception and computer vision. He has experience
-              developing software for autonomous robots at startups including Skydio, Optimus
+              developing perception and mapping software at robotics startups including Skydio, Optimus
               Ride, Adaviv, and Kespry.
             </Card.Text>
               <Card.Link href="milo@bluemeadow.ai">milo@bluemeadow.ai</Card.Link>
@@ -80,13 +80,14 @@ class TeamCardIzzy extends Component {
         <Col xs={12} md={5} className="my-auto">
           <Card className="CardWithoutBorder" border="">
           <Card.Body>
-            <Card.Title className="ColorMeadowBlue">Izzy Brand</Card.Title>
+            <Card.Title className="ColorMeadowBlue">Isaiah Brand</Card.Title>
             <Card.Subtitle className="text-muted mb-3 MonospaceFont">CTO & Co-Founder</Card.Subtitle>
             <Card.Text>
-              Milo earned his B.S in Computer Science and M.Eng in Artificial Intelligence at MIT,
-              where his research focused on robotic perception and computer vision. He has experience
-              developing software for autonomous robots at startups including Skydio, Optimus
-              Ride, Adaviv, and Kespry.
+              Izzy completed a B.S in Applied Mathematics and Computer Science at Brown, and
+              a Masters in Artificial Intelligence at MIT, where his research focused vision, reinforcement learning, and motion planning.
+              He has worked on a variety of aerial robotics problems, including multi-agent thermalling
+              with unmanned gliders (Microsoft Research), wind estimation and motion planning for drones (Skydio)
+              and autonomous agricultural surveying (Greensight Agronomics).
             </Card.Text>
               <Card.Link href="izzy@bluemeadow.ai">izzy@bluemeadow.ai</Card.Link>
               <Card.Link href="https://www.linkedin.com/in/izzybrand/"><span className="fa fa-linkedin"></span></Card.Link>
