@@ -31,9 +31,9 @@ class TechnologySection extends Component {
               <Card className="CardWithoutBorder">
                 <p className="MonospaceFont SectionHeader ColorMeadowBlue">UNDERWATER ROBOT</p>
                 <p className="SectionBodyText">
-                  An autonomous underwater vehicle (AUV) collects images and sensor data across the farm.
+                  An autonomous underwater vehicle (AUV) collects daily images and sensor data across the farm.
                   Our autonomy software enables it to navigate, avoid obstacles, and complete complex
-                  tasks.
+                  tasks on its own.
                 </p>
               </Card>
             </Col>
@@ -46,9 +46,8 @@ class TechnologySection extends Component {
               <Card className="CardWithoutBorder">
                 <p className="MonospaceFont SectionHeader ColorMeadowBlue pt-3">SURFACE STATION</p>
                 <p className="SectionBodyText">
-                  The AUV is tethered to a surface station, allowing it to recharge and upload data.
-                  The surface station enables long-term deployment of the AUV without maintenance,
-                  and uplinks data to the cloud via a cellular or satelite network.
+                  A surface station provides solar recharging and data uplink via a cellular or satellite network,
+                  enabling long-term deployment without maintenance.
                 </p>
               </Card>
             </Col>
@@ -61,14 +60,14 @@ class TechnologySection extends Component {
               <Card className="CardWithoutBorder">
                 <p className="MonospaceFont SectionHeader ColorMeadowBlue pt-3">DATA PLATFORM</p>
                 <p className="SectionBodyText">
-                  Collected data is visualized through a web application. We are working with
-                  farmers to develop data analysis tools that can save time, boost yields, and
-                  optimize farm design.
+                  Data is displayed through a web application, giving remote access to the farm.
+                  We are working with farmers to develop analysis tools that can save time, boost yields, and
+                  help optimize farm design.
                 </p>
               </Card>
             </Col>
           </Row>
-          <Row className="pt-5">
+          <Row className="pt-5 mt-5 pb-5">
             <Col xs={0} md={2}></Col>
             <Col xs={12} md={8}>
               <Card className="AnimateOnScroll">

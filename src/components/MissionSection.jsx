@@ -64,11 +64,10 @@ class ChallengeSection extends Component {
                   Farmers need an affordable data collection system that can scale to large farms.
                 </p>
                 <p className="pt-3 SectionBodyText">
-                Ocean farms are dynamic, 3D environments that are hard to observe from the
-                surface. Static or handheld sensors can only provide information about a small area
-                of the farm, while remote-operated vehicles (ROVs) are expensive and require a human
-                pilot to deploy. This makes it challenging to obtain up-to-date information about
-                crops, equipment, and underwater conditions.
+                Ocean farms are dynamic, 3D environments that are difficult to observe from the
+                surface. Manual inspection of crops, equipment, and conditions across the entire farm is
+                infeasible to do on a regular basis. Data collected by static sensors, divers, or
+                remote-operated vehicles (ROVs) is typically insufficient, labor-intensive, or expensive to collect.
                 </p>
                 <p className="text-muted CitationFont pt-3">
                 [1] Lovatelli, A., Aguilar-Manjarrez, J. & Soto, D., eds. (2013). Expanding mariculture
