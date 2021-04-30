@@ -12,7 +12,7 @@ class TeamSection extends Component {
         <a id="Team"></a>
         <Container className="pt-5 pb-5">
           <Row className="">
-            <p className="SectionHeader MonospaceFont ColorMeadowBlue pl-3">OUR TEAM</p>
+            <p className="SectionHeader MonospaceFont ColorMeadowBlue pl-3 AnimateOnScroll">OUR TEAM</p>
           </Row>
           <Row className="pt-5">
             <Col xs={0} md={2}></Col>

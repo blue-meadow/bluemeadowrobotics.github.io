@@ -11,19 +11,17 @@ class TechnologySection extends Component {
         <a id="Technology"></a>
         <Container className="pt-5 pb-5">
           <Row className="">
-            <p className="SectionHeader MonospaceFont ColorMeadowBlue pl-3">OUR TECHNOLOGY</p>
+            <p className="SectionHeader MonospaceFont ColorMeadowBlue pl-3 AnimateOnScroll">OUR TECHNOLOGY</p>
           </Row>
           <Row>
-            <Col xs={0} md={2}></Col>
-            <Col xs={12} md={8}>
+            <Col>
               <Card className="CardWithoutBorder pt-3">
-                <p className="SectionStandoutText">
+                <p className="HeaderFont">
                   Blue Meadow is developing low-cost, autonomous robots that monitor
                   ocean farms for the entire growing season.
                 </p>
               </Card>
             </Col>
-            <Col xs={0} md={2}></Col>
           </Row>
           <Row className="pt-5">
             <Col xs={12} md={7}>
@@ -73,7 +71,7 @@ class TechnologySection extends Component {
           <Row className="pt-5">
             <Col xs={0} md={2}></Col>
             <Col xs={12} md={8}>
-              <Card className="">
+              <Card className="AnimateOnScroll">
                 <Card.Body>
                   <blockquote className="blockquote mb-0">
                     <p className="SectionBodyText">

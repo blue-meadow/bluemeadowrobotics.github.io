@@ -10,7 +10,7 @@ class ContactSection extends Component {
         <a id="Contact"></a>
         <Container className="pt-5 pb-5">
           <Row className="">
-            <p className="SectionHeader MonospaceFont ColorMeadowBlue pl-3">WORK WITH US</p>
+            <p className="SectionHeader MonospaceFont ColorMeadowBlue pl-3 AnimateOnScroll">WORK WITH US</p>
           </Row>
           <Row className="">
             <Col xs={0} md={3}></Col>

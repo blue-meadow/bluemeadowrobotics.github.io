@@ -6,21 +6,23 @@ import { Container, Row, Col } from 'react-bootstrap';
 class BannerSection extends Component {
   render() {
     return (
-      <Container fluid>
+      <Container fluid style={{height: "100vh"}}>
         {/* <img className="img-fluid" src="images/Banner2.svg"></img> */}
         <Container className="pt-5 pb-5">
           <Row>
             <Col>
-              <img src="images/Banner2.svg" className="img-fluid"></img>
+            <div className="responsive-container-916 animate__animated animate__fadeIn">
+              <img src="images/auv_render.png" className="img-fluid"></img>
+            </div>
             </Col>
           </Row>
           <a id="Mission"></a>
-          <Row className="mt-5">
+          <Row className="pt-5">
             <Col>
-              <p className="ColorMeadowBlue BlueMeadowTitle MonospaceFont">
+              <p className="ColorMeadowBlue BlueMeadowTitle MonospaceFont animate__animated animate__fadeIn">
                 Blue Meadow
               </p>
-              <p className="HeaderFont">
+              <p className="HeaderFont animate__animated animate__fadeIn animate__slower">
                 Intelligent, autonomous robots for regenerative ocean farming
               </p>
             </Col>
