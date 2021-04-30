@@ -3,19 +3,22 @@ import React from 'react';
 
 import './css/style.css';
 
-import TopNavbar from './components/top_navbar';
-import Footer from './components/footer';
-import MissionSection from './components/mission_section';
-import TechnologySection from './components/technology_section';
-import TeamSection from './components/team_section';
-import ContactSection from './components/contact_section';
+import TopNavbar from './components/TopNavbar';
+import Footer from './components/Footer';
+import { OpportunitySection, ChallengeSection } from './components/MissionSection';
+import TechnologySection from './components/TechnologySection';
+import TeamSection from './components/TeamSection';
+import ContactSection from './components/ContactSection';
+import BannerSection from './components/BannerSection';
 
 
 function App() {
   return (
     <div className="App">
       <TopNavbar></TopNavbar>
-      <MissionSection></MissionSection>
+      <BannerSection></BannerSection>
+      <OpportunitySection></OpportunitySection>
+      <ChallengeSection></ChallengeSection>
       <TechnologySection></TechnologySection>
       <TeamSection></TeamSection>
       <ContactSection></ContactSection>
