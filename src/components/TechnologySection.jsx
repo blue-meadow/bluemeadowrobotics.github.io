@@ -8,6 +8,7 @@ class TechnologySection extends Component {
   render() {
     return (
       <Container fluid className="BackgroundGray">
+        <a id="Technology"></a>
         <Container className="pt-5 pb-5">
           <Row className="">
             <p className="SectionHeader MonospaceFont ColorMeadowBlue pl-3">OUR TECHNOLOGY</p>
@@ -30,7 +31,7 @@ class TechnologySection extends Component {
             </Col>
             <Col xs={12} md={5} className="my-auto">
               <Card className="CardWithoutBorder">
-                <p className="MonospaceFont SectionBodyText ColorMeadowBlue">UNDERWATER ROBOT</p>
+                <p className="MonospaceFont SectionHeader ColorMeadowBlue">UNDERWATER ROBOT</p>
                 <p className="SectionBodyText">
                   An autonomous underwater vehicle (AUV) collects images and sensor data across the farm.
                   Our autonomy software enables it to navigate, avoid obstacles, and complete complex
@@ -45,7 +46,7 @@ class TechnologySection extends Component {
             </Col>
             <Col xs={12} md={5} className="my-auto">
               <Card className="CardWithoutBorder">
-                <p className="MonospaceFont SectionBodyText ColorMeadowBlue pt-3">SURFACE STATION</p>
+                <p className="MonospaceFont SectionHeader ColorMeadowBlue pt-3">SURFACE STATION</p>
                 <p className="SectionBodyText">
                   The AUV is tethered to a surface station, allowing it to recharge and upload data.
                   The surface station enables long-term deployment of the AUV without maintenance,
@@ -60,7 +61,7 @@ class TechnologySection extends Component {
             </Col>
             <Col xs={12} md={5} className="my-auto">
               <Card className="CardWithoutBorder">
-                <p className="MonospaceFont SectionBodyText ColorMeadowBlue pt-3">DATA PLATFORM</p>
+                <p className="MonospaceFont SectionHeader ColorMeadowBlue pt-3">DATA PLATFORM</p>
                 <p className="SectionBodyText">
                   Collected data is visualized through a web application. We are working with
                   farmers to develop data analysis tools that can save time, boost yields, and
@@ -75,7 +76,7 @@ class TechnologySection extends Component {
               <Card className="">
                 <Card.Body>
                   <blockquote className="blockquote mb-0">
-                    <p className="ColorMeadowBlue SectionBodyText">
+                    <p className="SectionBodyText">
                       {' '}
                       The central challenge of ocean farming is that our “soil” turns over a thousand times a day,
                       and we can't see what we grow. This means we need embedded sensors in our farms and have to

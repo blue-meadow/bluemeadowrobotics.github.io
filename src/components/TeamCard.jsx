@@ -6,9 +6,9 @@ class TeamCardMilo extends Component {
   render() {
     return (
       <Card border="secondary">
-        <Card.Img variant="top" src="images/milo1.png" style={{padding: 20}}/>
+        <Card.Img className="img-fluid pb-1" variant="top" src="images/milo1.png" style={{padding: 20}}/>
         <Card.Body>
-          <Card.Title>Milo Knowles</Card.Title>
+          <Card.Title className="ColorMeadowBlue">Milo Knowles</Card.Title>
           <Card.Subtitle className="text-muted mb-3 MonospaceFont">CEO & Co-Founder</Card.Subtitle>
           <Card.Text>
             Milo earned his B.S in Computer Science and M.Eng in Artificial Intelligence at MIT,
@@ -32,9 +32,9 @@ class TeamCardIzzy extends Component {
   render() {
     return (
       <Card border="secondary">
-        <Card.Img variant="top" src="images/izzy1_square.jpg" style={{padding: 20}}/>
+        <Card.Img className="img-fluid pb-1" variant="top" src="images/izzy1_square.jpg" style={{padding: 20}}/>
         <Card.Body>
-          <Card.Title>Izzy Brand</Card.Title>
+          <Card.Title className="ColorMeadowBlue">Izzy Brand</Card.Title>
           <Card.Subtitle className="text-muted mb-3 MonospaceFont">CTO & Co-Founder</Card.Subtitle>
           <Card.Text>
             Milo earned his B.S in Computer Science and M.Eng in Artificial Intelligence at MIT,

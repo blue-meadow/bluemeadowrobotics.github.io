@@ -17,7 +17,6 @@ body {
 .BlueMeadowTitle {
   font-family: "Roboto";
   font-size: 44px;
-  line-height: 64px;
   font-weight: 800;
 }
 
@@ -40,7 +39,6 @@ body {
   font-family: "Work Sans", "Arial", "Verdana", "sans-serif";
   font-feature-settings: "liga";
   font-size: 30px;
-  line-height: 64px;
 }
 
 .CitationFont {
@@ -63,10 +61,6 @@ body {
 .ColorMeadowBlue {
   color: #3D5AFE
 }
-
-/* .ComingSoonSection {
-  height: 100vh;
-} */
 
 /**************** COMPONENTS ***************/
 .CardWithoutBorder {

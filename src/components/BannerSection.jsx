@@ -8,12 +8,13 @@ class BannerSection extends Component {
     return (
       <Container fluid>
         {/* <img className="img-fluid" src="images/Banner2.svg"></img> */}
-        <Container>
+        <Container className="pt-5 pb-5">
           <Row>
             <Col>
               <img src="images/Banner2.svg" className="img-fluid"></img>
             </Col>
           </Row>
+          <a id="Mission"></a>
           <Row className="mt-5">
             <Col>
               <p className="ColorMeadowBlue BlueMeadowTitle MonospaceFont">

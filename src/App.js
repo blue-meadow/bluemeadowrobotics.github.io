@@ -8,8 +8,8 @@ import Footer from './components/Footer';
 import { OpportunitySection, ChallengeSection } from './components/MissionSection';
 import TechnologySection from './components/TechnologySection';
 import TeamSection from './components/TeamSection';
-import ContactSection from './components/ContactSection';
 import BannerSection from './components/BannerSection';
+import ContactSection from './components/ContactSection';
 
 
 function App() {

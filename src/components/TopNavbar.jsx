@@ -13,13 +13,13 @@ class TopNavbar extends Component {
         <Navbar.Collapse id="responsive-navbar-nav">
           {/* Aligned with the left side of the navbar */}
           <Nav className="mr-auto">
-            <Nav.Link href="/#mission" className="ColorBlack MonospaceFont">Mission</Nav.Link>
-            <Nav.Link href="/#technology" className="ColorBlack MonospaceFont">Technology</Nav.Link>
+            <Nav.Link href="#Mission" className="ColorBlack MonospaceFont">Mission</Nav.Link>
+            <Nav.Link href="#Technology" className="ColorBlack MonospaceFont">Technology</Nav.Link>
           </Nav>
           {/* Aligned with the right side of the navbar */}
           <Nav>
-          <Nav.Link href="/#team" className="ColorBlack MonospaceFont">Team</Nav.Link>
-            <Nav.Link href="/#contact" className="ColorBlack MonospaceFont">Contact</Nav.Link>
+            <a href="#Team" className="nav-link ColorBlack MonospaceFont">Team</a>
+            <a href="#Contact" className="nav-link ColorBlack MonospaceFont">Contact</a>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
