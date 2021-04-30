@@ -1,4 +1,4 @@
-# Blue Meadow Public Website
+# Landing Page
 
 # Setup
 ```bash
@@ -22,4 +22,6 @@ npm run deploy # Puts everything into a minified build folder that gets served t
 
 # Useful Links
 - [Online icon tool](https://icoconvert.com/)
-
+- https://coolcssanimation.com/how-to-trigger-a-css-animation-on-scroll/
+- https://animate.style/#usage
+- https://react-bootstrap.github.io/getting-started/introduction/
