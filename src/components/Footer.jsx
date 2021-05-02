@@ -8,7 +8,7 @@ class Footer extends Component {
     return (
       <Container fluid className="BackgroundGray">
         <footer className="page-footer pt-3 pb-3" id="bluemeadow-footer">
-          <div className="text-center MonospaceFont AnimateOnScroll">© 2021 BLUE MEADOW, INC</div>
+          <div className="text-center MonospaceFont AnimateOnScroll animate__animated animate__fadeInUp">© 2021 BLUE MEADOW, INC</div>
         </footer>
       </Container>
     );

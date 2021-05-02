@@ -8,21 +8,25 @@ import { Container } from 'react-bootstrap';
 class TopNavbar extends Component {
   render() {
     return (
-      <Navbar collapseOnSelect expand="lg" className="" variant="light" sticky="" id="bluemeadow-navbar">
+      <Navbar collapseOnSelect expand="md" className="" variant="light" sticky="" id="bluemeadow-navbar">
         <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Container>
-            <Navbar.Brand href="/" className="MonospaceFont"><span className="BMColor">Blue Meadow</span></Navbar.Brand>
-            {/* <Nav.Link href="/" className="ColorBlack MonospaceFont"><span className="BMColor mr-auto">Blue Meadow</span></Nav.Link> */}
+            <Navbar.Brand href="/" className="MonospaceFont"><span className="BMColor"> > Blue Meadow</span></Navbar.Brand>
             <Nav className="ml-auto">
               <Nav.Link href="#Mission" className="ColorBlack MonospaceFont">MISSION</Nav.Link>
               <Nav.Link href="#Technology" className="ColorBlack MonospaceFont">TECHNOLOGY</Nav.Link>
-              <a href="#Team" className="nav-link ColorBlack MonospaceFont">TEAM</a>
-              <a href="#Contact" className="nav-link ColorBlack MonospaceFont">CONTACT</a>
+              <Nav.Link href="#Team" className="ColorBlack MonospaceFont">TEAM</Nav.Link>
+              <Nav.Link href="#Contact" className="ColorBlack MonospaceFont">CONTACT</Nav.Link>
             </Nav>
-          </Container>
         </Navbar.Collapse>
       </Navbar>
+      // <nav class="nav flex-column" variant="light" className="sticky-top">
+      //   <Navbar.Brand href="/" className="MonospaceFont"><span className="BMColor">Blue Meadow</span></Navbar.Brand>
+      //   <a href="#Mission" className="nav-link ColorBlack MonospaceFont">> MISSION</a>
+      //   <a href="#Technology" className="nav-link ColorBlack MonospaceFont">> TECHNOLOGY</a>
+      //   <a href="#Team" className="nav-link ColorBlack MonospaceFont">> TEAM</a>
+      //   <a href="#Contact" className="nav-link ColorBlack MonospaceFont">> CONTACT</a>
+      // </nav>
     );
   }
 }
