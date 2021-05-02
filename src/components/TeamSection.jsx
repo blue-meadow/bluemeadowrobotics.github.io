@@ -11,7 +11,7 @@ import Container from 'react-bootstrap/Container';
 //       <Card border="secondary">
 //         <Card.Img className="img-fluid pb-1" variant="top" src="images/izzy1_square.jpg" style={{padding: 20}}/>
 //         <Card.Body>
-//           <Card.Title className="ColorMeadowBlue">Izzy Brand</Card.Title>
+//           <Card.Title className="BMColor">Izzy Brand</Card.Title>
 //           <Card.Subtitle className="text-muted mb-3 MonospaceFont">CTO & Co-Founder</Card.Subtitle>
 //           <Card.Text>
 //             Milo earned his B.S in Computer Science and M.Eng in Artificial Intelligence at MIT,
@@ -44,7 +44,7 @@ class TeamCardMilo extends Component {
         <Col xs={12} md={5} className="my-auto">
           <Card className="CardWithoutBorder" border="">
           <Card.Body>
-            <Card.Title className="ColorMeadowBlue">Milo Knowles</Card.Title>
+            <Card.Title className="BMColor">Milo Knowles</Card.Title>
             <Card.Subtitle className="text-muted mb-3 MonospaceFont">CEO & Co-Founder</Card.Subtitle>
             <Card.Text>
               Milo earned his B.S in Computer Science and M.Eng in Artificial Intelligence at MIT,
@@ -80,7 +80,7 @@ class TeamCardIzzy extends Component {
         <Col xs={12} md={5} className="my-auto">
           <Card className="CardWithoutBorder" border="">
           <Card.Body>
-            <Card.Title className="ColorMeadowBlue">Isaiah Brand</Card.Title>
+            <Card.Title className="BMColor">Isaiah Brand</Card.Title>
             <Card.Subtitle className="text-muted mb-3 MonospaceFont">CTO & Co-Founder</Card.Subtitle>
             <Card.Text>
               Izzy completed a B.S in Applied Mathematics and Computer Science at Brown, and
@@ -110,7 +110,7 @@ class TeamSection extends Component {
         <a id="Team"></a>
         <Container className="pt-5 pb-5">
           <Row className="">
-            <p className="SectionHeader MonospaceFont ColorMeadowBlue pl-3 AnimateOnScroll">OUR TEAM</p>
+            <p className="SectionHeaderText MonospaceFont BMColor pl-3 AnimateOnScroll animate__animated animate__fadeInUp">OUR TEAM</p>
           </Row>
           <TeamCardMilo></TeamCardMilo>
           <TeamCardIzzy></TeamCardIzzy>

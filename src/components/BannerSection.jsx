@@ -8,7 +8,7 @@ class BannerSection extends Component {
     return (
       <Container fluid style={{height: "100vh"}}>
         {/* <img className="img-fluid" src="images/Banner2.svg"></img> */}
-        <Container className="pt-5 pb-5">
+        <Container className="pt-5 pb-5 my-auto">
           <Row>
             <Col>
             <div className="responsive-container-916 animate__animated animate__fadeIn">
@@ -19,10 +19,10 @@ class BannerSection extends Component {
           <a id="Mission"></a>
           <Row className="pt-5">
             <Col>
-              <p className="ColorMeadowBlue BlueMeadowTitle MonospaceFont animate__animated animate__fadeIn">
+              <p className="BMColor BMTitleText MonospaceFont animate__animated animate__fadeIn">
                 Blue Meadow
               </p>
-              <p className="HeaderFont animate__animated animate__fadeIn animate__slower">
+              <p className="BMSubtitleText animate__animated animate__fadeIn animate__slower">
                 Intelligent, autonomous robots for regenerative ocean farming
               </p>
             </Col>

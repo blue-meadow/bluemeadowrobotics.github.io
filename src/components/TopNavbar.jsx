@@ -12,8 +12,8 @@ class TopNavbar extends Component {
         <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Container>
-            <Navbar.Brand href="/" className="MonospaceFont"><span className="ColorMeadowBlue">Blue Meadow</span></Navbar.Brand>
-            {/* <Nav.Link href="/" className="ColorBlack MonospaceFont"><span className="ColorMeadowBlue mr-auto">Blue Meadow</span></Nav.Link> */}
+            <Navbar.Brand href="/" className="MonospaceFont"><span className="BMColor">Blue Meadow</span></Navbar.Brand>
+            {/* <Nav.Link href="/" className="ColorBlack MonospaceFont"><span className="BMColor mr-auto">Blue Meadow</span></Nav.Link> */}
             <Nav className="ml-auto">
               <Nav.Link href="#Mission" className="ColorBlack MonospaceFont">MISSION</Nav.Link>
               <Nav.Link href="#Technology" className="ColorBlack MonospaceFont">TECHNOLOGY</Nav.Link>

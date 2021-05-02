@@ -10,7 +10,7 @@ class ContactSection extends Component {
         <a id="Contact"></a>
         <Container className="pt-5 pb-5">
           <Row className="">
-            <p className="SectionHeader MonospaceFont ColorMeadowBlue pl-3 AnimateOnScroll">WORK WITH US</p>
+            <p className="SectionHeaderText MonospaceFont BMColor pl-3 AnimateOnScroll animate__animated animate__fadeInUp">WORK WITH US</p>
           </Row>
           <Row className="">
             <Col xs={0} md={3}></Col>
@@ -26,7 +26,7 @@ class ContactSection extends Component {
                 </p>
                 <p className="pt-3 SectionBodyText">
                   We're also looking for roboticists, hardware engineers, marine biologists,
-                  and aquaculture experts to add to the team. <span className="ColorMeadowBlue">
+                  and aquaculture experts to add to the team. <span className="BMColor">
                   If you're interested in working at an early-stage, climate-focused robotics
                   startup, please get in touch!</span>
                 </p>

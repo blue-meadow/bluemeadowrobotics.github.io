@@ -28,30 +28,37 @@ class App extends Component {
     );
   }
 
+  /**
+   * Add AnimateOnScroll functionality to some objects. Any HTML object with the "AnimateOnScroll"
+   * class name will be triggered when the user scrolls to it. Any other classname with the format
+   * animate__* is removed initially, and added upon scroll to trigger.
+   */
   componentDidMount() {
-    // Any object with this name in its class list will be given the AnimateOnScroll behavior.
-    const queryClassName = "AnimateOnScroll";
-    const toggleClassName = ["animate__animated", "animate__fadeIn"];
+    // Get all elements with "AnimateOnScroll" in their classlist. Collect
+    const triggerElements = Array.from(document.getElementsByClassName("AnimateOnScroll"));
 
-    const observer = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        // const square = entry.target.querySelector(queryClassName);
-
-        if (entry.isIntersecting) {
-          toggleClassName.forEach(name => entry.target.classList.add(name));
-          return; // if we added the class, exit the function
-        }
-
-        // We're not intersecting, so remove the class!
-        toggleClassName.forEach(name => entry.target.classList.remove(name));
+    triggerElements.forEach(element => {
+      const animateClassNames = Array.from(element.classList).filter(s => {
+        return s.includes("animate__");
       });
-    });
 
-    var elements = Array.from(document.getElementsByClassName(queryClassName));
-    console.log(elements);
-    for (let el of elements) {
-      observer.observe(el);
-    }
+      // Add a scroll observer for this object.
+      animateClassNames.forEach(name => element.classList.remove(name));
+
+      const scrollObserver = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            animateClassNames.forEach(name => entry.target.classList.add(name));
+            return; // If we added the class, exit the function
+          }
+
+          // We're not intersecting, so remove the class!
+          animateClassNames.forEach(name => entry.target.classList.remove(name));
+        });
+      });
+
+      scrollObserver.observe(element);
+    });
   }
 }
 

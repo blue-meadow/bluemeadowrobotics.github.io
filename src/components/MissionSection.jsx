@@ -10,7 +10,7 @@ class OpportunitySection extends Component {
       <Container fluid className="BackgroundGray">
         <Container className="pt-5 pb-5">
           <Row className="">
-            <p className="SectionHeader MonospaceFont ColorMeadowBlue pl-3 AnimateOnScroll">OPPORTUNITY</p>
+            <p className="SectionHeaderText MonospaceFont BMColor pl-3 AnimateOnScroll animate__animated animate__fadeInUp">OPPORTUNITY</p>
           </Row>
           <Row>
             <Col xs={0} md={3}></Col>
@@ -25,14 +25,14 @@ class OpportunitySection extends Component {
                 are carbon-negative, and provide vital ecosystem benefits such as ocean
                 de-acidification, excess nutrient removal, and carbon sequestration.
                 </p>
-                <p className="text-muted CitationFont pt-3">
+                <p className="text-muted CitationText pt-3">
                 [1] Hoegh-Guldberg, O., et al. (2019). ‘‘The Ocean as a Solution to Climate Change: Five Opportunities for Action.’’
                 Report. Washington, DC: World Resources Institute.
                 </p>
-                <p className="text-muted CitationFont">
+                <p className="text-muted CitationText">
                 [2] Jones, R. (October, 2017). “Aquaculture Could Feed The World And Protect The Planet - If We Get It Right.” The Nature Conservancy.
                 </p>
-                <p className="text-muted CitationFont">
+                <p className="text-muted CitationText">
                 [3] Woods Hole Oceanographic Institute (WHOI). (January, 2007). Sustainable Marine
                 Aquaculture: Fulfilling The Promise; Managing The Risks. Report of the Marine
                 Aquaculture Task Force.
@@ -54,7 +54,7 @@ class ChallengeSection extends Component {
       <Container fluid className="BackgroundWhite">
         <Container className="pt-5 pb-5">
           <Row className="">
-            <p className="SectionHeader MonospaceFont ColorMeadowBlue pl-3 AnimateOnScroll">CHALLENGE</p>
+            <p className="SectionHeaderText MonospaceFont BMColor pl-3 AnimateOnScroll animate__animated animate__fadeInUp">CHALLENGE</p>
           </Row>
           <Row>
             <Col xs={0} md={3}></Col>
@@ -69,7 +69,7 @@ class ChallengeSection extends Component {
                 infeasible to do on a regular basis. Data collected by static sensors, divers, or
                 remote-operated vehicles (ROVs) is typically insufficient, labor-intensive, or expensive to collect.
                 </p>
-                <p className="text-muted CitationFont pt-3">
+                <p className="text-muted CitationText pt-3">
                 [1] Lovatelli, A., Aguilar-Manjarrez, J. & Soto, D., eds. (2013). Expanding mariculture
                 farther offshore: technical, environmental, spatial and governance challenges.
                 FAO Technical Workshop, 22–25 March 2010, Orbetello, Italy. FAO Fisheries and Aquaculture
