@@ -80,7 +80,7 @@ class TechnologySection extends Component {
                       deploy autonomous underwater “fish” to keep an eye on our crops. We need technology to track
                       underwater weather.{' '}
                     </p>
-                    <footer className="blockquote-footer">
+                    <footer className="blockquote-footer BodyFont">
                       Bren Smith (Founder of GreenWave) in <cite title="Source Title">Eat Like a Fish</cite>
                     </footer>
                   </blockquote>
