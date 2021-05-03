@@ -54,7 +54,7 @@ class TechnologySection extends Component {
           </Row>
           <Row className="pt-5">
             <Col xs={12} md={7}>
-              <img className="img-fluid" src="images/platform.png"></img>
+              <img className="img-fluid" src="images/farmview2.png"></img>
             </Col>
             <Col xs={12} md={5} className="my-auto">
               <Card className="CardWithoutBorder">
