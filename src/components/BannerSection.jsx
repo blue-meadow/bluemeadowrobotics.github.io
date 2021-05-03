@@ -33,7 +33,7 @@ class BannerSection extends Component {
     const fillHeight = this.state.page_fill_height ? `${this.state.page_fill_height}px`: "100vh";
 
     return (
-      <Container fluid style={{height: fillHeight}}>
+      <Container fluid>
         <Container className="pt-3 pb-5 my-auto">
           <Row>
             <Col>
