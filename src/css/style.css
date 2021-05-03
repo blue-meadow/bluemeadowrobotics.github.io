@@ -4,10 +4,12 @@
 /**************** FONTS AND TEXT ***************/
 body {
   margin: 0;
-  font-family: "Roboto", "Arial", "Verdana", "sans-serif";
+  /* font-family: "Roboto", "Arial", "Verdana", "sans-serif";*/
+  font-family: "Work Sans", "Roboto", "Arial", "Verdana", "sans-serif";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 16px;
+  font-feature-settings: "liga";
 }
 
 .MonospaceFont {
@@ -15,7 +17,6 @@ body {
 }
 
 .BodyFont {
-  font-family: "Work Sans", "Arial", "Verdana", "sans-serif";
   font-feature-settings: "liga";
 }
 
@@ -26,9 +27,8 @@ body {
 }
 
 .BMSubtitleText {
-  font-family: "Work Sans", "Arial", "Verdana", "sans-serif";
   font-feature-settings: "liga";
-  font-size: 36px;
+  font-size: 34px;
 }
 
 .SectionHeaderText {
@@ -37,21 +37,23 @@ body {
 }
 
 .SectionStandoutText {
-  font-family: "Work Sans", "Arial", "Verdana", "sans-serif";
   font-feature-settings: "liga";
   font-size: 36px;
 }
 
 .SectionBodyText {
-  font-family: "Work Sans", "Arial", "Verdana", "sans-serif";
   font-feature-settings: "liga";
   font-size: 28px;
 }
 
 .CitationText {
-  font-family: "Work Sans", "Arial", "Verdana", "sans-serif";
   font-feature-settings: "liga";
   font-size: 12px;
+}
+
+.TechBodyText {
+  font-feature-settings: "liga";
+  font-size: 22px;
 }
 
 
