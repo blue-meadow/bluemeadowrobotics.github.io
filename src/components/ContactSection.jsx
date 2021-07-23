@@ -21,8 +21,8 @@ class ContactSection extends Component {
                   Farmers need an affordable data collection system that can scale to large farms.
                 </p> */}
                 <p className="pt-3 SectionBodyText">
-                  We are actively developing our first prototype, with pilot tests planned for
-                  Spring 2022. If you're interested in trying it out,
+                  We are actively developing a hardware prototype, with pilot tests planned for
+                  Spring 2022. If you're a farmer interested in trying it,
                   we'd love to hear from you.
                 </p>
                 <p className="pt-3 SectionBodyText">

@@ -70,18 +70,12 @@ class ChallengeSection extends Component {
             <Col xs={12} md={6}>
               <Card className="CardWithoutBorder pt-3">
                 <p className="SectionStandoutText">
-                  Farmers need affordable, real-time data collection on crops and water conditions.
+                  Farmers need affordable, real-time data on crops and water conditions.
                 </p>
                 <p className="pt-3 SectionBodyText">
                 Seaweed requires a precise balance of light, nutrients, and flow speed for optimal growth.
                 Early detection of disease, fouling, and environmental changes is critical for avoiding losses.
                 </p>
-                {/* <p className="text-muted CitationText pt-3">
-                [1] Lovatelli, A., Aguilar-Manjarrez, J. & Soto, D., eds. (2013). Expanding mariculture
-                farther offshore: technical, environmental, spatial and governance challenges.
-                FAO Technical Workshop, 22–25 March 2010, Orbetello, Italy. FAO Fisheries and Aquaculture
-                Proceedings No. 24. Rome, FAO. 73 pp.
-                </p> */}
               </Card>
             </Col>
             <Col xs={0} md={3}></Col>
