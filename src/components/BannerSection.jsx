@@ -49,7 +49,7 @@ class BannerSection extends Component {
                 Blue Meadow
               </p>
               <p className="BMSubtitleText animate__animated animate__fadeIn animate__slower">
-                Intelligent, autonomous robots for regenerative ocean farming
+                Autonomous data collection on regenerative ocean farms
               </p>
             </Col>
           </Row>
