@@ -21,15 +21,14 @@ class ContactSection extends Component {
                   Farmers need an affordable data collection system that can scale to large farms.
                 </p> */}
                 <p className="pt-3 SectionBodyText">
-                  We are actively developing our AUV and surface station, with pilot tests planned for
-                  Fall 2021 and Spring 2022. If you're interested in trying out our technology,
+                  We are actively developing our first prototype, with pilot tests planned for
+                  Spring 2022. If you're interested in trying it out,
                   we'd love to hear from you.
                 </p>
                 <p className="pt-3 SectionBodyText">
-                  We're also looking for roboticists, hardware engineers, marine biologists,
-                  and aquaculture experts to add to the team. <span className="BMColor">
+                  We're also growing our team! <span className="BMColor">
                   If you're interested in working at an early-stage, climate-focused robotics
-                  startup, please <a href="mailto:milo@bluemeadow.ai?cc=izzy@bluemeadow.ai">get in touch!</a></span>
+                  startup, please <a href="mailto:milo@bluemeadow.ai?cc=izzy@bluemeadow.ai">get in touch.</a></span>
                 </p>
               </Card>
             </Col>

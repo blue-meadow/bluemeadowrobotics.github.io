@@ -17,15 +17,24 @@ class OpportunitySection extends Component {
             <Col xs={12} md={6}>
               <Card className="CardWithoutBorder pt-3">
                 <p className="SectionStandoutText">
-                  Regenerative ocean farms can provide abundant, carbon-negative food while mitigating climate change.
+                  Seaweed farms provide abundant, carbon-negative biomass while mitigating climate change.
                 </p>
                 <p className="pt-3 SectionBodyText">
-                Marine aquaculture has been identified as a critical resource for feeding a growing
-                population while mitigating climate change. Ocean foods like kelp, oysters, and mussels
-                are carbon-negative, and provide vital ecosystem benefits such as ocean
-                de-acidification, excess nutrient removal, and carbon sequestration.
+                  Seaweed requires no fertilizer, fresh water, or arable land, and benefits the ecosystem through
+                  de-acidification and excess nutrient removal.
+                </p>
+                <p className="pt-3 SectionBodyText">It's a versatile ingredient that can be used in plant-based proteins, fertilizer, bioplastic,
+                animal feed, and biofuel.
                 </p>
                 <p className="text-muted CitationText pt-3">
+                [1] Godin, Melissa. “The Ocean Farmers Trying to Save the World With Seaweed.” Time. September 4, 2020. https://time.com/5848994/seaweed-climate-change-solution/
+                </p>
+                <p className="text-muted CitationText pt-3">
+                [2] Duarte CM, Wu J, Xiao X, Bruhn A and Krause-Jensen D (2017).
+                Can Seaweed Farming Play a Role in Climate Change Mitigation and Adaptation?
+                Front. Mar. Sci. 4:100. doi: 10.3389/fmars.2017.00100
+                </p>
+                {/* <p className="text-muted CitationText pt-3">
                 [1] Hoegh-Guldberg, O., et al. (2019). ‘‘The Ocean as a Solution to Climate Change: Five Opportunities for Action.’’
                 Report. Washington, DC: World Resources Institute.
                 </p>
@@ -36,7 +45,7 @@ class OpportunitySection extends Component {
                 [3] Woods Hole Oceanographic Institute (WHOI). (January, 2007). Sustainable Marine
                 Aquaculture: Fulfilling The Promise; Managing The Risks. Report of the Marine
                 Aquaculture Task Force.
-                </p>
+                </p> */}
               </Card>
             </Col>
             <Col xs={0} md={3}></Col>
@@ -61,20 +70,18 @@ class ChallengeSection extends Component {
             <Col xs={12} md={6}>
               <Card className="CardWithoutBorder pt-3">
                 <p className="SectionStandoutText">
-                  Farmers need an affordable data collection system that can scale to large farms.
+                  Farmers need affordable, real-time data collection on crops and water conditions.
                 </p>
                 <p className="pt-3 SectionBodyText">
-                Ocean farms are dynamic, 3D environments that are difficult to observe from the
-                surface. Manual inspection of crops, equipment, and conditions across the entire farm is
-                infeasible to do on a regular basis. Data collected by static sensors, divers, or
-                remote-operated vehicles (ROVs) is typically insufficient, labor-intensive, or expensive to collect.
+                Seaweed requires a precise balance of light, nutrients, and flow speed for optimal growth.
+                Early detection of disease, fouling, and environmental changes is critical for avoiding losses.
                 </p>
-                <p className="text-muted CitationText pt-3">
+                {/* <p className="text-muted CitationText pt-3">
                 [1] Lovatelli, A., Aguilar-Manjarrez, J. & Soto, D., eds. (2013). Expanding mariculture
                 farther offshore: technical, environmental, spatial and governance challenges.
                 FAO Technical Workshop, 22–25 March 2010, Orbetello, Italy. FAO Fisheries and Aquaculture
                 Proceedings No. 24. Rome, FAO. 73 pp.
-                </p>
+                </p> */}
               </Card>
             </Col>
             <Col xs={0} md={3}></Col>
