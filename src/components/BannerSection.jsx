@@ -35,13 +35,13 @@ class BannerSection extends Component {
     return (
       <Container fluid>
         <Container className="pt-3 pb-5 my-auto">
-          <Row>
+          {/* <Row>
             <Col>
             <div className="responsive-container-1-3 animate__animated animate__fadeIn animate__slow">
               <img src="images/USVRenderWide.png" className="img-fluid"></img>
             </div>
             </Col>
-          </Row>
+          </Row> */}
           <a id="Mission"></a>
           <Row className="pt-5 pb-5">
             <Col>
@@ -49,17 +49,17 @@ class BannerSection extends Component {
                 Blue Meadow
               </p>
               <p className="BMSubtitleText animate__animated animate__fadeIn animate__slower">
-                Intelligent, autonomous robots for regenerative ocean farming
+                Autonomous data collection on regenerative ocean farms
               </p>
             </Col>
           </Row>
-          <Row>
+          {/* <Row>
             <Col>
             <div className="responsive-container-1-3 animate__animated animate__fadeIn animate__slow">
               <img src="images/farmsim12.png" className="img-fluid"></img>
             </div>
             </Col>
-          </Row>
+          </Row> */}
         </Container>
       </Container>
     );

@@ -17,37 +17,22 @@ class TechnologySection extends Component {
             <Col>
               <Card className="CardWithoutBorder pt-3">
                 <p className="BMSubtitleText">
-                  Blue Meadow is developing low-cost, autonomous robots that monitor
-                  ocean farms for the entire growing season.
+                  Blue Meadow is developing a low-cost, robotic monitoring system for seaweed farms.
                 </p>
               </Card>
             </Col>
           </Row>
           <Row className="pt-5">
             <Col xs={12} md={7}>
-              <img className="img-fluid" src="images/AutonomyDemo.svg"></img>
+              <img className="img-fluid" src="images/Wireframe.svg"></img>
             </Col>
             <Col xs={12} md={5} className="my-auto">
               <Card className="CardWithoutBorder">
-                <p className="MonospaceFont SectionHeaderText BMColor">UNDERWATER ROBOT</p>
+                <p className="MonospaceFont SectionHeaderText BMColor">AUTONOMOUS ROBOT</p>
                 <p className="TechBodyText">
-                  An autonomous underwater vehicle (AUV) collects images and sensor data across the farm.
-                  Our autonomy software enables it to navigate, avoid obstacles, and complete complex
-                  tasks on its own.
-                </p>
-              </Card>
-            </Col>
-          </Row>
-          <Row className="pt-5">
-            <Col xs={12} md={7}>
-              <img className="img-fluid" src="images/usv_render.png"></img>
-            </Col>
-            <Col xs={12} md={5} className="my-auto">
-              <Card className="CardWithoutBorder">
-                <p className="MonospaceFont SectionHeaderText BMColor pt-3">SURFACE STATION</p>
-                <p className="TechBodyText">
-                  A surface station provides solar recharging and data uplink via a cellular or satellite network,
-                  enabling <span className="BMColor">season-long deployment without maintenance.</span>
+                  Our robot collects images and sensor data across the farm. It can move laterally
+                  and vertically to build up a 3D profile of water conditions. Solar charging, remote data upload,
+                  and biofouling control allows it to stay on the farm indefinitely.
                 </p>
               </Card>
             </Col>
@@ -60,9 +45,10 @@ class TechnologySection extends Component {
               <Card className="CardWithoutBorder">
                 <p className="MonospaceFont SectionHeaderText BMColor pt-3">DATA PLATFORM</p>
                 <p className="TechBodyText">
-                  Data is displayed in a web application.
-                  We are working with farmers to develop analysis tools that can <span className="BMColor">save time, improve yields, and
-                  quantify the ecosystem benefits provided by farms.</span>
+                  Our web dashboard allows farmers to keep track of their farm without hauling any
+                  equipment out of the water. We are developing analysis tools that
+                  can <span className="BMColor">improve yields, reduce labor costs, and
+                  quantify the ecosystem services provided by farms.</span>
                 </p>
               </Card>
             </Col>
