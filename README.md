@@ -27,12 +27,13 @@ Add this `CNAME` entry to DNS records:
 CNAME     www     bluemeadowrobotics.github.io      30 min
 ```
 
-**NOTE**: Need to have a file in the top level directory called `CNAME` with the following entry:
+**NOTE**: Need to have a file in the `public` folder called `CNAME` with the following entry:
 ```
 www.bluemeadow.ai
 ```
 - This file is created/deleted on the `gh-pages` branch when you add a custom domain in `Settings > Pages > Custom domain`.
 - I had problems before due to the fact that `npm run deploy` will overwrite everything on the `gh-pages` branch, overwriting the `CNAME` file there.
+- Has to be in the `public` folder because this gets packaged with the build.
 - As of `7/25/2021`, there is a `CNAME` file on the `main` branch.
 
 
