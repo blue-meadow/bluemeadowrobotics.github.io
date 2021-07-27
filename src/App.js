@@ -3,12 +3,12 @@ import React, { Component } from 'react';
 
 import './css/style.css';
 
-import TopNavbar from './components/TopNavbar';
+// import TopNavbar from './components/TopNavbar';
 import Footer from './components/Footer';
 import { OpportunitySection, ChallengeSection } from './components/MissionSection';
 import TechnologySection from './components/TechnologySection';
 import TeamSection from './components/TeamSection';
-import BannerSection from './components/BannerSection';
+// import BannerSection from './components/BannerSection';
 import ContactSection from './components/ContactSection';
 
 
@@ -16,8 +16,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <TopNavbar></TopNavbar>
-        <BannerSection></BannerSection>
+        {/* <TopNavbar></TopNavbar> */}
+        {/* <BannerSection></BannerSection> */}
         <OpportunitySection></OpportunitySection>
         <ChallengeSection></ChallengeSection>
         <TechnologySection></TechnologySection>

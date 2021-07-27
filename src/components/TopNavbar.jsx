@@ -11,7 +11,7 @@ class TopNavbar extends Component {
       <Navbar collapseOnSelect expand="md" className="" variant="light" sticky="" id="bluemeadow-navbar">
         <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
         <Navbar.Collapse id="responsive-navbar-nav">
-            {/* <Navbar.Brand href="/" className="MonospaceFont"><span className="BMColor">Blue Meadow</span></Navbar.Brand> */}
+            <Navbar.Brand href="/" className="MonospaceFont"><span className="BMColor SectionHeaderText">BLUE MEADOW</span></Navbar.Brand>
             <Nav className="ml-auto">
               <Nav.Link href="#Mission" className="ColorBlack MonospaceFont">MISSION</Nav.Link>
               <Nav.Link href="#Technology" className="ColorBlack MonospaceFont">TECHNOLOGY</Nav.Link>
@@ -20,13 +20,6 @@ class TopNavbar extends Component {
             </Nav>
         </Navbar.Collapse>
       </Navbar>
-      // <nav class="nav flex-column" variant="light" className="sticky-top">
-      //   <Navbar.Brand href="/" className="MonospaceFont"><span className="BMColor">Blue Meadow</span></Navbar.Brand>
-      //   <a href="#Mission" className="nav-link ColorBlack MonospaceFont">> MISSION</a>
-      //   <a href="#Technology" className="nav-link ColorBlack MonospaceFont">> TECHNOLOGY</a>
-      //   <a href="#Team" className="nav-link ColorBlack MonospaceFont">> TEAM</a>
-      //   <a href="#Contact" className="nav-link ColorBlack MonospaceFont">> CONTACT</a>
-      // </nav>
     );
   }
 }

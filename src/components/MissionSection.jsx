@@ -8,6 +8,7 @@ class OpportunitySection extends Component {
   render() {
     return (
       <Container fluid className="BackgroundGray">
+        <a id="Mission"></a>
         <Container className="pt-5 pb-5">
           <Row className="">
             <p className="SectionHeaderText MonospaceFont BMColor pl-3 AnimateOnScroll animate__animated animate__fadeInUp">OPPORTUNITY</p>
@@ -17,13 +18,13 @@ class OpportunitySection extends Component {
             <Col xs={12} md={6}>
               <Card className="CardWithoutBorder pt-3">
                 <p className="SectionStandoutText">
-                  Seaweed farms provide abundant, carbon-negative biomass while mitigating climate change.
+                  Seaweed farms can provide abundant, carbon-negative biomass while mitigating climate change.
                 </p>
-                <p className="pt-3 SectionBodyText">
-                  Seaweed requires no fertilizer, fresh water, or arable land, and benefits the ecosystem through
+                <p className="pt-3 SectionBodyText BMColor">
+                  Seaweed requires no fertilizer, fresh water, or arable land, and benefits the ocean through
                   de-acidification and excess nutrient removal.
                 </p>
-                <p className="pt-3 SectionBodyText">It's a versatile ingredient that can be used in plant-based proteins, fertilizer, bioplastic,
+                <p className="pt-3 SectionBodyText">It's a versatile ingredient that's being used in plant-based proteins, fertilizer, bioplastic,
                 animal feed, and biofuel.
                 </p>
                 <p className="text-muted CitationText pt-3">
@@ -34,18 +35,6 @@ class OpportunitySection extends Component {
                 Can Seaweed Farming Play a Role in Climate Change Mitigation and Adaptation?
                 Front. Mar. Sci. 4:100. doi: 10.3389/fmars.2017.00100
                 </p>
-                {/* <p className="text-muted CitationText pt-3">
-                [1] Hoegh-Guldberg, O., et al. (2019). ‘‘The Ocean as a Solution to Climate Change: Five Opportunities for Action.’’
-                Report. Washington, DC: World Resources Institute.
-                </p>
-                <p className="text-muted CitationText">
-                [2] Jones, R. (October, 2017). “Aquaculture Could Feed The World And Protect The Planet - If We Get It Right.” The Nature Conservancy.
-                </p>
-                <p className="text-muted CitationText">
-                [3] Woods Hole Oceanographic Institute (WHOI). (January, 2007). Sustainable Marine
-                Aquaculture: Fulfilling The Promise; Managing The Risks. Report of the Marine
-                Aquaculture Task Force.
-                </p> */}
               </Card>
             </Col>
             <Col xs={0} md={3}></Col>
@@ -75,6 +64,9 @@ class ChallengeSection extends Component {
                 <p className="pt-3 SectionBodyText">
                 Seaweed requires a precise balance of light, nutrients, and flow speed for optimal growth.
                 Early detection of disease, fouling, and environmental changes is critical for avoiding losses.
+                </p>
+                <p className="text-muted CitationText pt-3">
+                [1] Michael Y. Roleda & Catriona L. Hurd (2019) Seaweed nutrient physiology: application of concepts to aquaculture and bioremediation, Phycologia, 58:5, 552-562. https://doi.org/10.1080/00318884.2019.1622920.
                 </p>
               </Card>
             </Col>
