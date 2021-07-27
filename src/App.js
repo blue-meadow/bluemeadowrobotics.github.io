@@ -16,8 +16,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <TopNavbar></TopNavbar>
-        <BannerSection></BannerSection>
+        {/* <TopNavbar></TopNavbar> */}
+        {/* <BannerSection></BannerSection> */}
         <OpportunitySection></OpportunitySection>
         <ChallengeSection></ChallengeSection>
         <TechnologySection></TechnologySection>

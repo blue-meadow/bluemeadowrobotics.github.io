@@ -17,9 +17,6 @@ class ContactSection extends Component {
             <Col xs={0} md={3}></Col>
             <Col xs={12} md={6}>
               <Card className="CardWithoutBorder pt-3">
-                {/* <p className="SectionStandoutText">
-                  Farmers need an affordable data collection system that can scale to large farms.
-                </p> */}
                 <p className="pt-3 SectionBodyText">
                   We are actively developing a hardware prototype, with pilot tests planned for
                   Spring 2022. If you're a farmer interested in trying it,
@@ -28,7 +25,8 @@ class ContactSection extends Component {
                 <p className="pt-3 SectionBodyText">
                   We're also growing our team! <span className="BMColor">
                   If you're interested in working at an early-stage, climate-focused robotics
-                  startup, please <a href="mailto:milo@bluemeadow.ai?cc=izzy@bluemeadow.ai">get in touch.</a></span>
+                  startup, please get in touch.</span>
+                  {/* <a href="mailto:milo@bluemeadow.ai?cc=izzy@bluemeadow.ai"></a>*/}
                 </p>
               </Card>
             </Col>
