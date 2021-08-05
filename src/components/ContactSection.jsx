@@ -7,7 +7,7 @@ import { Container, Card, Row, Col } from 'react-bootstrap';
 class ContactSection extends Component {
   render() {
     return (
-      <Container fluid className="BackgroundGray">
+      <Container fluid className="BackgroundWhite">
         <a id="Contact"></a>
         <Container className="pt-5 pb-5">
           <Row className="">

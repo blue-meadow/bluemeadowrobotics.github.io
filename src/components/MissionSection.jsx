@@ -7,7 +7,7 @@ import { Card, Row, Col } from 'react-bootstrap'
 class OpportunitySection extends Component {
   render() {
     return (
-      <Container fluid className="BackgroundGray">
+      <Container fluid className="BackgroundWhite">
         <a id="Mission"></a>
         <Container className="pt-5 pb-5">
           <Row className="">
@@ -49,7 +49,7 @@ class OpportunitySection extends Component {
 class ChallengeSection extends Component {
   render() {
     return (
-      <Container fluid className="BackgroundWhite">
+      <Container fluid className="BackgroundGray">
         <Container className="pt-5 pb-5">
           <Row className="">
             <p className="SectionHeaderText MonospaceFont BMColor pl-3 AnimateOnScroll animate__animated animate__fadeInUp">CHALLENGE</p>
