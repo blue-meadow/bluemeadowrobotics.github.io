@@ -20,21 +20,21 @@ class OpportunitySection extends Component {
                 <p className="SectionStandoutText">
                   Seaweed farms can provide abundant, carbon-negative biomass while mitigating climate change.
                 </p>
-                <p className="pt-3 SectionBodyText BMColor">
+                {/* <p className="pt-3 SectionBodyText BMColor">
                   Seaweed requires no fertilizer, fresh water, or arable land, and benefits the ocean through
                   de-acidification and excess nutrient removal.
-                </p>
+                </p> */}
                 {/* <p className="pt-3 SectionBodyText">It's a versatile ingredient that's being used in plant-based proteins, fertilizer, bioplastic,
                 animal feed, and biofuel.
                 </p> */}
                 <p className="text-muted CitationText pt-3">
                 [1] Godin, Melissa. “The Ocean Farmers Trying to Save the World With Seaweed.” Time. September 4, 2020. https://time.com/5848994/seaweed-climate-change-solution/
                 </p>
-                <p className="text-muted CitationText pt-3">
+                {/* <p className="text-muted CitationText pt-3">
                 [2] Duarte CM, Wu J, Xiao X, Bruhn A and Krause-Jensen D (2017).
                 Can Seaweed Farming Play a Role in Climate Change Mitigation and Adaptation?
                 Front. Mar. Sci. 4:100. doi: 10.3389/fmars.2017.00100
-                </p>
+                </p> */}
               </Card>
             </Col>
             <Col xs={0} md={3}></Col>
@@ -61,8 +61,10 @@ class ChallengeSection extends Component {
                 <p className="SectionStandoutText">
                   Farmers need affordable, real-time data on crops and water conditions.
                 </p>
-                <p className="pt-3 SectionBodyText">
+                <p className="pt-3 SectionBodyText BMColor">
                 Seaweed needs a precise balance of light, nutrients, and flow for optimal growth.
+                </p>
+                <p className="pt-3 SectionBodyText BMColor">
                 Detecting disease, fouling, and environmental changes is critical for avoiding losses.
                 </p>
                 <p className="text-muted CitationText pt-3">

@@ -16,7 +16,7 @@ class TechnologySection extends Component {
           <Row>
             <Col>
               <Card className="CardWithoutBorder pt-3">
-                <p className="BMSubtitleText">
+                <p className="SectionStandoutText">
                   Blue Meadow is developing a low-cost, robotic sensor buoy for seaweed farms.
                 </p>
               </Card>
