@@ -55,7 +55,7 @@ class TeamCardMilo extends Component {
             <Card.Link href="milo@bluemeadow.ai">milo@bluemeadow.ai</Card.Link>
             <Card.Link href="https://www.linkedin.com/in/milo-knowles/"><span className="fa fa-linkedin"></span></Card.Link>
             {/* <Card.Link href="https://twitter.com/milo_knowles"><span className="fa fa-twitter"></span></Card.Link> */}
-            <Card.Link href="https://github.com/miloknowles"><span className="fa fa-github"></span></Card.Link>
+            {/* <Card.Link href="https://github.com/miloknowles"><span className="fa fa-github"></span></Card.Link> */}
             <Card.Link href="https://miloknowles.github.io/">Website</Card.Link>
           </Card.Body>
         </Card>
@@ -91,7 +91,7 @@ class TeamCardIzzy extends Component {
             {/*where his research focused on vision, reinforcement learning, and motion planning.*/}
             <Card.Link href="izzy@bluemeadow.ai">izzy@bluemeadow.ai</Card.Link>
             <Card.Link href="https://www.linkedin.com/in/izzybrand/"><span className="fa fa-linkedin"></span></Card.Link>
-            <Card.Link href="https://github.com/IzzyBrand"><span className="fa fa-github"></span></Card.Link>
+            {/* <Card.Link href="https://github.com/IzzyBrand"><span className="fa fa-github"></span></Card.Link> */}
             {/* <Card.Link href="https://izzybrand.com/">Website</Card.Link> */}
           </Card.Body>
         </Card>
