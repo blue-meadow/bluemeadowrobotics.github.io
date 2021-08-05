@@ -18,12 +18,14 @@ class OpportunitySection extends Component {
             <Col xs={12} md={6}>
               <Card className="CardWithoutBorder pt-3">
                 <p className="SectionStandoutText">
-                  Seaweed farms can provide abundant, carbon-negative biomass while mitigating climate change.
+                  Seaweed can mitigate climate change while providing an abundant source of biomass for
+                  food, fertilizer, bioplastic, feed, and biofuel.
+                  {/* Seaweed farms can provide abundant, carbon-negative biomass while mitigating climate change. */}
                 </p>
-                {/* <p className="pt-3 SectionBodyText BMColor">
-                  Seaweed requires no fertilizer, fresh water, or arable land, and benefits the ocean through
+                <p className="pt-3 SectionBodyText BMColor">
+                  It requires no fertilizer, fresh water, or arable land, and benefits the ocean through
                   de-acidification and excess nutrient removal.
-                </p> */}
+                </p>
                 {/* <p className="pt-3 SectionBodyText">It's a versatile ingredient that's being used in plant-based proteins, fertilizer, bioplastic,
                 animal feed, and biofuel.
                 </p> */}
@@ -59,7 +61,7 @@ class ChallengeSection extends Component {
             <Col xs={12} md={6}>
               <Card className="CardWithoutBorder pt-3">
                 <p className="SectionStandoutText">
-                  Farmers need affordable, real-time data on crops and water conditions.
+                Seaweed farmers need affordable, real-time data on crops and water conditions.
                 </p>
                 <p className="pt-3 SectionBodyText BMColor">
                 Seaweed needs a precise balance of light, nutrients, and flow for optimal growth.
