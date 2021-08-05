@@ -118,5 +118,19 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  /* overflow: hidden; */
+}
+
+#banner-placeholder-div {
+  height: 100vh;
+}
+
+@media all and (max-width: 499px) {
+  #banner-image-container {
+    background: none;
+    /* background: url("/images/banner_mobile.jpg") no-repeat center center fixed; */
+  }
+
+  #banner-placeholder-div {
+    height: 0px;
+  }
 }

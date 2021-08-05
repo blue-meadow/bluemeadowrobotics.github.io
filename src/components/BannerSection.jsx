@@ -4,35 +4,35 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 
 class BannerSection extends Component {
-  constructor(props) {
-    super(props);
+  // constructor(props) {
+  //   super(props);
 
-    this.state = {
-      page_fill_height: null
-    };
-  };
+  //   this.state = {
+  //     page_fill_height: null
+  //   };
+  // };
 
   // Do some math to make sure the banner covers exactly the screen (minus navbar).
-  componentDidMount() {
-    const viewportHeight = window.innerHeight || document.body.clientHeight;
-    var maybeNavbar = document.getElementById("bluemeadow-navbar");
+  // componentDidMount() {
+  //   const viewportHeight = window.innerHeight || document.body.clientHeight;
+  //   var maybeNavbar = document.getElementById("bluemeadow-navbar");
 
-    if (maybeNavbar) {
-      const navbarHeight = maybeNavbar.scrollHeight || maybeNavbar.offsetHeight;
-      this.setState({
-        page_fill_height: viewportHeight - navbarHeight
-      });
-    }
-  }
+  //   if (maybeNavbar) {
+  //     const navbarHeight = maybeNavbar.scrollHeight || maybeNavbar.offsetHeight;
+  //     this.setState({
+  //       page_fill_height: viewportHeight - navbarHeight
+  //     });
+  //   }
+  // }
 
   render() {
     // If height couldn't be computed, fill entire screen. This looks almost as good, but pushes
     // the next section slightly below the bottom of the screen.
-    const fillHeight = this.state.page_fill_height ? `${this.state.page_fill_height}px`: "100vh";
+    // const fillHeight = this.state.page_fill_height ? `${this.state.page_fill_height}px`: "100vh";
 
     return (
       <Container fluid id="banner-image-container">
-        <div style={{height: fillHeight}}>
+        <div id="banner-placeholder-div">
         </div>
       </Container>
     );
