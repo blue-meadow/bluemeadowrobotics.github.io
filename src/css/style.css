@@ -112,13 +112,11 @@ body {
   width: 100%;
 }
 
-
-.navbar.center .navbar-inner {
-  text-align: center;
-}
-
-.navbar.center .navbar-inner .nav {
-  display:inline-block;
-  float: none;
-  vertical-align: top;
+#mission-container {
+  /* background: url("/images/korea2.jpg") no-repeat center center fixed; */
+  /* background: url("/images/farm.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; */
 }
