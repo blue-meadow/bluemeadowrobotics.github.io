@@ -48,7 +48,7 @@ class TeamCardMilo extends Component {
             <Card.Subtitle className="text-muted pb-3 MonospaceFont">CEO & Co-Founder</Card.Subtitle>
             <p className="TeamCardText">
               Milo earned his B.S in Computer Science and Masters in AI at MIT. He's
-              developed computer vision and mapping software at a number of autonomous robotics startups including Skydio, Optimus
+              developed computer vision and mapping software at autonomous robotics startups including Skydio, Optimus
               Ride, Adaviv, and Kespry.
             </p>
             {/* where his research focused on robotic perception, state estimation, and learning. */}
@@ -92,7 +92,7 @@ class TeamCardIzzy extends Component {
             <Card.Link href="izzy@bluemeadow.ai">izzy@bluemeadow.ai</Card.Link>
             <Card.Link href="https://www.linkedin.com/in/izzybrand/"><span className="fa fa-linkedin"></span></Card.Link>
             <Card.Link href="https://github.com/IzzyBrand"><span className="fa fa-github"></span></Card.Link>
-            <Card.Link href="https://izzybrand.com/">Website</Card.Link>
+            {/* <Card.Link href="https://izzybrand.com/">Website</Card.Link> */}
           </Card.Body>
         </Card>
         </Col>
@@ -106,7 +106,7 @@ class TeamCardIzzy extends Component {
 class TeamSection extends Component {
   render() {
     return (
-      <Container fluid>
+      <Container fluid className="BackgroundGray">
         <a id="Team"></a>
         <Container className="pt-5 pb-5">
           <Row className="">
