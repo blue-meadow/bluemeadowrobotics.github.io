@@ -10,12 +10,10 @@ class TechnologySection extends Component {
       <Container fluid className="background-white mt-5">
         <a id="Technology"></a>
         <Container className="pt-5 pb-5">
-          <Row className="">
-            <p className="section-header-text monospace-font bm-blue-color AnimateOnScroll animate__animated animate__fadeIn">OUR TECHNOLOGY</p>
-          </Row>
           <Row>
             <Col>
               <Card className="card-borderless pt-3">
+                <p className="section-header-text monospace-font bm-blue-color AnimateOnScroll animate__animated animate__fadeIn">OUR TECHNOLOGY</p>
                 <p className="section-standout-text">
                   Blue Meadow is developing a low-cost, robotic sensor buoy for seaweed farms.
                 </p>
@@ -28,7 +26,7 @@ class TechnologySection extends Component {
             </Col>
             <Col xs={12} md={5} className="my-auto">
               <Card className="card-borderless">
-                <p className="monospace-font section-header-text bm-blue-color">MOBILE SENSING</p>
+                <p className="monospace-font section-header-text bm-blue-color pt-5">MOBILE SENSING</p>
                 <p className="body-text">
                   Unlike a moored sensor buoy, our robot moves around the farm to inspect crops and profile water conditions in 3D.
                 </p>
@@ -41,7 +39,7 @@ class TechnologySection extends Component {
             </Col>
             <Col xs={12} md={5} className="my-auto">
               <Card className="card-borderless">
-                <p className="monospace-font section-header-text bm-blue-color pt-3">WEB DASHBOARD</p>
+                <p className="monospace-font section-header-text bm-blue-color pt-5">WEB DASHBOARD</p>
                 <p className="body-text">
                   Farmers can track growth, analyze data, and view real-time conditions through a web dashboard.
                 </p>
@@ -62,7 +60,8 @@ class TechnologySection extends Component {
                       underwater weather.{' '}
                     </p>
                     <footer className="blockquote-footer">
-                      Bren Smith (Founder of GreenWave) in <cite title="Source Title">Eat Like a Fish</cite>
+                      Bren Smith (Founder of GreenWave)
+                      {/* in <cite title="Source Title">Eat Like a Fish</cite> */}
                     </footer>
                   </blockquote>
                 </Card.Body>
