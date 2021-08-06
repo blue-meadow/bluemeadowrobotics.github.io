@@ -11,8 +11,8 @@ import Container from 'react-bootstrap/Container';
 //       <Card border="secondary">
 //         <Card.Img className="img-fluid pb-1" variant="top" src="images/izzy1_square.jpg" style={{padding: 20}}/>
 //         <Card.Body>
-//           <Card.Title className="BMColor">Izzy Brand</Card.Title>
-//           <Card.Subtitle className="text-muted mb-3 MonospaceFont">CTO & Co-Founder</Card.Subtitle>
+//           <Card.Title className="bm-blue-color">Izzy Brand</Card.Title>
+//           <Card.Subtitle className="text-muted mb-3 monospace-font">CTO & Co-Founder</Card.Subtitle>
 //           <Card.Text>
 //             Milo earned his B.S in Computer Science and M.Eng in Artificial Intelligence at MIT,
 //             where his research focused on robotic perception and computer vision. He has experience
@@ -38,15 +38,15 @@ class TeamCardMilo extends Component {
         <Col xs={0} md={2}></Col>
         <Col xs={12} md={3} className="my-auto">
           <div className="">
-            <img className="img-fluid pb-1" variant="top" src="images/milo-square.png" style={{padding: 0}}/>
+            <img className="img-fluid pb-1" variant="top" src="images/team/milo-square.png" style={{padding: 0}}/>
           </div>
         </Col>
         <Col xs={12} md={6} className="my-auto">
-          <Card className="CardWithoutBorder" border="">
+          <Card className="card-borderless" border="">
           <Card.Body>
-            <Card.Title className="BMColor TeamCardTitle">Milo Knowles</Card.Title>
-            <Card.Subtitle className="text-muted pb-3 MonospaceFont">CEO & Co-Founder</Card.Subtitle>
-            <p className="TeamCardText">
+            <Card.Title className="bm-blue-color team-card-title">Milo Knowles</Card.Title>
+            <Card.Subtitle className="text-muted pb-3 monospace-font">CEO & Co-Founder</Card.Subtitle>
+            <p className="team-card-text">
               Milo earned his B.S in Computer Science and Masters in AI at MIT. He's
               developed computer vision and mapping software at autonomous robotics startups including Skydio, Optimus
               Ride, Adaviv, and Kespry.
@@ -74,15 +74,15 @@ class TeamCardIzzy extends Component {
         <Col xs={0} md={2}></Col>
         <Col xs={12} md={3} className="my-auto">
           <div className="">
-            <img className="img-fluid pb-1" variant="top" src="images/izzy-square.jpg" style={{padding: 0}}/>
+            <img className="img-fluid pb-1" variant="top" src="images/team/izzy-square.jpg" style={{padding: 0}}/>
           </div>
         </Col>
         <Col xs={12} md={6} className="my-auto">
-          <Card className="CardWithoutBorder" border="">
+          <Card className="card-borderless" border="">
           <Card.Body>
-            <Card.Title className="BMColor TeamCardTitle">Isaiah Brand</Card.Title>
-            <Card.Subtitle className="text-muted pb-3 MonospaceFont">CTO & Co-Founder</Card.Subtitle>
-            <p className="TeamCardText">
+            <Card.Title className="bm-blue-color team-card-title">Isaiah Brand</Card.Title>
+            <Card.Subtitle className="text-muted pb-3 monospace-font">CTO & Co-Founder</Card.Subtitle>
+            <p className="team-card-text">
               Izzy completed a B.S in Applied Math and Computer Science at Brown, and
               a Masters in AI at MIT. He's worked on planning & controls software and vehicle hardware
               at Microsoft Research, Skydio, and Greensight Agronomics.
@@ -105,11 +105,11 @@ class TeamCardIzzy extends Component {
 class TeamSection extends Component {
   render() {
     return (
-      <Container fluid className="BackgroundGray">
+      <Container fluid className="background-gray">
         <a id="Team"></a>
         <Container className="pt-5 pb-5">
           <Row className="">
-            <p className="SectionHeaderText MonospaceFont BMColor pl-3 AnimateOnScroll animate__animated animate__fadeInUp">OUR TEAM</p>
+            <p className="section-header-text monospace-font bm-blue-color pl-3 AnimateOnScroll animate__animated animate__fadeInUp">OUR TEAM</p>
           </Row>
           <TeamCardMilo></TeamCardMilo>
           <TeamCardIzzy></TeamCardIzzy>
