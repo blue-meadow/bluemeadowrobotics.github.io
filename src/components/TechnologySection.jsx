@@ -7,11 +7,11 @@ import { Card, Row, Col } from 'react-bootstrap'
 class TechnologySection extends Component {
   render() {
     return (
-      <Container fluid className="background-white">
+      <Container fluid className="background-white mt-5">
         <a id="Technology"></a>
         <Container className="pt-5 pb-5">
           <Row className="">
-            <p className="section-header-text monospace-font bm-blue-color pl-3 AnimateOnScroll animate__animated animate__fadeIn">OUR TECHNOLOGY</p>
+            <p className="section-header-text monospace-font bm-blue-color AnimateOnScroll animate__animated animate__fadeIn">OUR TECHNOLOGY</p>
           </Row>
           <Row>
             <Col>

@@ -17,7 +17,7 @@ body {
 }
 
 .bm-banner-text {
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 800;
   color: white;
 }
@@ -67,7 +67,10 @@ body {
 /**************** COMPONENTS ***************/
 .card-borderless {
   border: none;
-  background: transparent;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  /* background: transparent; */
 }
 
 /**************** BANNER IMAGE ***************/
