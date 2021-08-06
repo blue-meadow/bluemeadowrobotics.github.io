@@ -33,18 +33,18 @@ body {
 }
 
 .SectionHeaderText {
-  font-size: 20px;
+  font-size: 14px;
   font-weight: 800;
 }
 
 .SectionStandoutText {
   font-feature-settings: "liga";
-  font-size: 36px;
+  font-size: 28px;
 }
 
 .SectionBodyText {
   font-feature-settings: "liga";
-  font-size: 28px;
+  font-size: 20px;
 }
 
 .CitationText {
@@ -54,7 +54,7 @@ body {
 
 .TechBodyText {
   font-feature-settings: "liga";
-  font-size: 22px;
+  font-size: 20px;
 }
 
 
@@ -112,11 +112,29 @@ body {
   width: 100%;
 }
 
-#mission-container {
-  /* background: url("/images/korea2.jpg") no-repeat center center fixed; */
-  /* background: url("/images/farm.jpg") no-repeat center center fixed;
+#banner-image-container {
+  background: url("/images/korea3.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; */
+  background-size: cover;
+}
+
+#banner-placeholder-div {
+  height: 100vh;
+}
+
+@media all and (max-width: 800px) {
+  #banner-image-container {
+    background: none;
+    /* background: url("/images/mobile.png") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+  }
+
+  #banner-placeholder-div {
+    height: 0px;
+  }
 }

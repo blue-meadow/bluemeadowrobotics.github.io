@@ -16,7 +16,7 @@ class TechnologySection extends Component {
           <Row>
             <Col>
               <Card className="CardWithoutBorder pt-3">
-                <p className="BMSubtitleText">
+                <p className="SectionStandoutText">
                   Blue Meadow is developing a low-cost, robotic sensor buoy for seaweed farms.
                 </p>
               </Card>
@@ -30,9 +30,7 @@ class TechnologySection extends Component {
               <Card className="CardWithoutBorder">
                 <p className="MonospaceFont SectionHeaderText BMColor">MOBILE SENSING</p>
                 <p className="TechBodyText">
-                  Unlike existing moored sensor buoys, our robot moves around the farm to
-                  build up a 3D profile of water conditions. Onboard computer vision algorithms are used
-                  assess growth rate and crop health.
+                  Unlike a moored sensor buoy, our robot moves around the farm to inspect crops and profile water conditions in 3D.
                 </p>
               </Card>
             </Col>
@@ -45,8 +43,7 @@ class TechnologySection extends Component {
               <Card className="CardWithoutBorder">
                 <p className="MonospaceFont SectionHeaderText BMColor pt-3">WEB DASHBOARD</p>
                 <p className="TechBodyText">
-                  Remote data upload allows farmers to keep track of their site without hauling any
-                  equipment out of the water.
+                  Farmers can track growth, analyze data, and view real-time conditions through a web dashboard.
                 </p>
               </Card>
             </Col>

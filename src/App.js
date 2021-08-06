@@ -8,22 +8,22 @@ import Footer from './components/Footer';
 import { OpportunitySection, ChallengeSection } from './components/MissionSection';
 import TechnologySection from './components/TechnologySection';
 import TeamSection from './components/TeamSection';
-// import BannerSection from './components/BannerSection';
 import ContactSection from './components/ContactSection';
+import BannerSection from './components/BannerSection';
 
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <TopNavbar></TopNavbar>
-        {/* <BannerSection></BannerSection> */}
-        <OpportunitySection></OpportunitySection>
-        <ChallengeSection></ChallengeSection>
-        <TechnologySection></TechnologySection>
-        <TeamSection></TeamSection>
-        <ContactSection></ContactSection>
-        <Footer></Footer>
+        {/* <TopNavbar/> */}
+        <BannerSection/>
+        <OpportunitySection/>
+        <ChallengeSection/>
+        <TechnologySection/>
+        <TeamSection/>
+        <ContactSection/>
+        <Footer/>
       </div>
     );
   }
