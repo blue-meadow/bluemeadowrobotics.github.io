@@ -11,14 +11,12 @@ class ContactSection extends Component {
         <a id="Contact"></a>
         <Container className="pt-5 pb-5">
           <Row className="">
-            <p className="section-header-text monospace-font bm-blue-color pl-3 AnimateOnScroll animate__animated animate__fadeInUp">WORK WITH US</p>
-          </Row>
-          <Row className="">
-            <Col xs={0} md={3}></Col>
-            <Col xs={12} md={6}>
+            <Col xs={0} md={2}></Col>
+            <Col xs={12} md={8}>
               <Card className="card-borderless pt-3">
+              <p className="section-header-text monospace-font bm-blue-color AnimateOnScroll animate__animated animate__fadeIn">WORK WITH US</p>
                 <p className="pt-3 body-text">
-                  We're working on a hardware prototype, with pilot tests planned for
+                  We're building a hardware prototype, with pilot tests planned for
                   Spring 2022. If you're an ocean farmer, we'd love to hear from you.
                 </p>
                 <p className="pt-3 body-text">
@@ -28,7 +26,7 @@ class ContactSection extends Component {
                 </p>
               </Card>
             </Col>
-            <Col xs={0} md={3}></Col>
+            <Col xs={0} md={2}></Col>
           </Row>
         </Container>
       </Container>
