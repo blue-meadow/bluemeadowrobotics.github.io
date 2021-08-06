@@ -124,10 +124,14 @@ body {
   height: 100vh;
 }
 
-@media all and (max-width: 499px) {
+@media all and (max-width: 800px) {
   #banner-image-container {
     background: none;
-    /* background: url("/images/banner_mobile.jpg") no-repeat center center fixed; */
+    /* background: url("/images/mobile.png") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
   }
 
   #banner-placeholder-div {
