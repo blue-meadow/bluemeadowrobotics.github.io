@@ -1,5 +1,6 @@
 # Landing Page
 
+
 # Setup
 ```bash
 # Install nodejs (also installs npm)
@@ -15,10 +16,12 @@ npm install gh-pages --save-dev
 npm start # Has hot-reloading.
 ```
 
+
 # Deploying
 ```bash
 npm run deploy # Puts everything into a minified build folder that gets served to gh-pages branch.
 ```
+
 
 # Custom Domain Hosting
 

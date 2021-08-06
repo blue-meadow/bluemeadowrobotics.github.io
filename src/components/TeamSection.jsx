@@ -38,7 +38,7 @@ class TeamCardMilo extends Component {
         <Col xs={0} md={2}></Col>
         <Col xs={12} md={3} className="my-auto">
           <div className="">
-            <img className="img-fluid pb-1" variant="top" src="images/milo-square.png" style={{padding: 0}}/>
+            <img className="img-fluid pb-1" variant="top" src="images/team/milo-square.png" style={{padding: 0}}/>
           </div>
         </Col>
         <Col xs={12} md={6} className="my-auto">
@@ -74,7 +74,7 @@ class TeamCardIzzy extends Component {
         <Col xs={0} md={2}></Col>
         <Col xs={12} md={3} className="my-auto">
           <div className="">
-            <img className="img-fluid pb-1" variant="top" src="images/izzy-square.jpg" style={{padding: 0}}/>
+            <img className="img-fluid pb-1" variant="top" src="images/team/izzy-square.jpg" style={{padding: 0}}/>
           </div>
         </Col>
         <Col xs={12} md={6} className="my-auto">
