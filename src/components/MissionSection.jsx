@@ -11,7 +11,9 @@ class OpportunitySection extends Component {
         <a id="Mission"></a>
         <Container className="pt-5 pb-5">
           <Row className="">
-            <p className="section-header-text monospace-font bm-blue-color pl-3 AnimateOnScroll animate__animated animate__fadeInUp">OPPORTUNITY</p>
+            <p className="section-header-text monospace-font bm-blue-color pl-3 AnimateOnScroll animate__animated animate__fadeInUp">
+              OPPORTUNITY
+            </p>
           </Row>
           <Row>
             <Col xs={0} md={3}></Col>
@@ -22,10 +24,10 @@ class OpportunitySection extends Component {
                   food, fertilizer, bioplastic, feed, and biofuel.
                   {/* Seaweed farms can provide abundant, carbon-negative biomass while mitigating climate change. */}
                 </p>
-                <p className="pt-3 body-text bm-blue-color">
+                {/* <p className="pt-3 body-text bm-blue-color">
                   It requires no fertilizer, fresh water, or arable land, and benefits the ocean through
                   de-acidification and excess nutrient removal.
-                </p>
+                </p> */}
                 {/* <p className="pt-3 body-text">It's a versatile ingredient that's being used in plant-based proteins, fertilizer, bioplastic,
                 animal feed, and biofuel.
                 </p> */}
@@ -54,7 +56,9 @@ class ChallengeSection extends Component {
       <Container fluid className="background-gray">
         <Container className="pt-5 pb-5">
           <Row className="">
-            <p className="section-header-text monospace-font bm-blue-color pl-3 AnimateOnScroll animate__animated animate__fadeInUp">CHALLENGE</p>
+            <p className="section-header-text monospace-font bm-blue-color pl-3 AnimateOnScroll animate__animated animate__fadeInUp">
+              CHALLENGE
+            </p>
           </Row>
           <Row>
             <Col xs={0} md={3}></Col>
