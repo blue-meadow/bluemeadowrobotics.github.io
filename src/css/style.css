@@ -16,6 +16,12 @@ body {
   font-family: "Roboto Mono", monospace;
 }
 
+.bm-banner-text {
+  font-size: 32px;
+  font-weight: 800;
+  color: white;
+}
+
 .section-header-text {
   font-size: 14px;
   font-weight: 800;

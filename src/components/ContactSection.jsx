@@ -11,7 +11,7 @@ class ContactSection extends Component {
         <a id="Contact"></a>
         <Container className="pt-5 pb-5">
           <Row className="">
-            <p className="section-header-text monospace-font bm-blue-color pl-3 AnimateOnScroll animate__animated animate__fadeInUp">WORK WITH US</p>
+            <p className="section-header-text monospace-font bm-blue-color pl-3 AnimateOnScroll animate__animated animate__fadeIn">WORK WITH US</p>
           </Row>
           <Row className="">
             <Col xs={0} md={3}></Col>

@@ -11,7 +11,7 @@ class TechnologySection extends Component {
         <a id="Technology"></a>
         <Container className="pt-5 pb-5">
           <Row className="">
-            <p className="section-header-text monospace-font bm-blue-color pl-3 AnimateOnScroll animate__animated animate__fadeInUp">OUR TECHNOLOGY</p>
+            <p className="section-header-text monospace-font bm-blue-color pl-3 AnimateOnScroll animate__animated animate__fadeIn">OUR TECHNOLOGY</p>
           </Row>
           <Row>
             <Col>
