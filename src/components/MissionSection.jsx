@@ -7,7 +7,7 @@ import { Card, Row, Col } from 'react-bootstrap'
 class OpportunitySection extends Component {
   render() {
     return (
-      <Container fluid className="" id="mission-container">
+      <Container fluid className="background-white" id="mission-container">
         <a id="Mission"></a>
         <Container className="pt-5 pb-5">
           <Row>
@@ -46,7 +46,7 @@ class OpportunitySection extends Component {
 class ChallengeSection extends Component {
   render() {
     return (
-      <Container fluid className="">
+      <Container fluid className="background-gray">
         <Container className="pt-5 pb-5">
           <Row>
             <Col xs={0} md={2}></Col>
