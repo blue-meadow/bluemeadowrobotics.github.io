@@ -7,7 +7,7 @@ import { Card, Row, Col } from 'react-bootstrap'
 class TechnologySection extends Component {
   render() {
     return (
-      <Container fluid className="background-white mt-5">
+      <Container fluid className="background-white">
         <a id="Technology"></a>
         <Container className="pt-5 pb-5">
           <Row>
