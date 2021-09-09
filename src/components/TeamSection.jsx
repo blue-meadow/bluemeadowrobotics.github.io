@@ -36,29 +36,29 @@ class TeamCardMilo extends Component {
     return (
       <Row className="pt-3">
         <Col xs={0} md={2}></Col>
-        <Col xs={12} md={3} className="my-auto">
+        <Col xs={8} md={3} className="my-auto mx-auto">
           <div className="">
-            <img className="img-fluid pb-1" variant="top" src="images/team/milo-square.png" style={{padding: 0}}/>
+            <img className="img-fluid rounded responsive-headshot" variant="top" src="images/team/milo-square.png"/>
           </div>
         </Col>
         <Col xs={12} md={6} className="my-auto">
           <Card className="card-borderless" border="">
-          <Card.Body>
-            <Card.Title className="bm-blue-color team-card-title">Milo Knowles</Card.Title>
-            <Card.Subtitle className="text-muted pb-3 monospace-font">CEO & Co-Founder</Card.Subtitle>
-            <p className="team-card-text">
-              Milo earned his B.S in Computer Science and Masters in AI at MIT. He's
-              developed computer vision and mapping software at autonomous robotics startups including Skydio, Optimus
-              Ride, Adaviv, and Kespry.
-            </p>
-            {/* where his research focused on robotic perception, state estimation, and learning. */}
-            <Card.Link href="milo@bluemeadow.ai">milo@bluemeadow.ai</Card.Link>
-            <Card.Link href="https://www.linkedin.com/in/milo-knowles/"><span className="fa fa-linkedin"></span></Card.Link>
-            {/* <Card.Link href="https://twitter.com/milo_knowles"><span className="fa fa-twitter"></span></Card.Link> */}
-            {/* <Card.Link href="https://github.com/miloknowles"><span className="fa fa-github"></span></Card.Link> */}
-            <Card.Link href="https://miloknowles.github.io/">Website</Card.Link>
-          </Card.Body>
-        </Card>
+            <Card.Body>
+              <Card.Title className="bm-blue-color team-card-title">Milo Knowles</Card.Title>
+              <Card.Subtitle className="text-muted pb-3 monospace-font">CEO & Co-Founder</Card.Subtitle>
+              <p className="team-card-text">
+                Milo earned his B.S in Computer Science and Masters in AI at MIT. He's
+                developed computer vision and mapping software at autonomous robotics startups including Skydio, Optimus
+                Ride, Adaviv, and Kespry.
+              </p>
+              {/* where his research focused on robotic perception, state estimation, and learning. */}
+              <Card.Link href="milo@bluemeadow.ai">milo@bluemeadow.ai</Card.Link>
+              <Card.Link href="https://www.linkedin.com/in/milo-knowles/"><span className="fa fa-linkedin"></span></Card.Link>
+              {/* <Card.Link href="https://twitter.com/milo_knowles"><span className="fa fa-twitter"></span></Card.Link> */}
+              {/* <Card.Link href="https://github.com/miloknowles"><span className="fa fa-github"></span></Card.Link> */}
+              {/* <Card.Link href="https://miloknowles.github.io/">Website</Card.Link> */}
+            </Card.Body>
+          </Card>
         </Col>
         <Col xs={0} md={1}></Col>
       </Row>
@@ -109,10 +109,10 @@ class TeamSection extends Component {
         <a id="Team"></a>
         <Container className="pt-5 pb-5">
           <Row className="">
-            <p className="section-header-text monospace-font bm-blue-color pl-3 AnimateOnScroll animate__animated animate__fadeIn">OUR TEAM</p>
+            <p className="section-header-text monospace-font bm-blue-color pl-3 AnimateOnScroll animate__animated animate__fadeIn">TEAM</p>
           </Row>
           <TeamCardMilo></TeamCardMilo>
-          <TeamCardIzzy></TeamCardIzzy>
+          {/* <TeamCardIzzy></TeamCardIzzy> */}
         </Container>
       </Container>
     );

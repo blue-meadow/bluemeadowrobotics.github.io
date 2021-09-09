@@ -13,9 +13,9 @@ class TechnologySection extends Component {
           <Row>
             <Col>
               <Card className="card-borderless pt-3">
-                <p className="section-header-text monospace-font bm-blue-color AnimateOnScroll animate__animated animate__fadeIn">OUR TECHNOLOGY</p>
+                <p className="section-header-text monospace-font bm-blue-color AnimateOnScroll animate__animated animate__fadeIn">TECHNOLOGY</p>
                 <p className="section-standout-text">
-                  Blue Meadow is developing a low-cost, robotic sensor buoy for seaweed farms.
+                  Blue Meadow is developing a low-cost monitoring robot for ocean farms.
                 </p>
               </Card>
             </Col>
@@ -26,9 +26,12 @@ class TechnologySection extends Component {
             </Col>
             <Col xs={12} md={5} className="my-auto">
               <Card className="card-borderless">
-                <p className="monospace-font section-header-text bm-blue-color pt-5">MOBILE SENSING</p>
+                <p className="monospace-font section-header-text bm-blue-color pt-5">PERSISTENT, MOBILE SENSING</p>
                 <p className="body-text">
-                  Unlike a moored sensor buoy, our robot moves around the farm to inspect crops and profile water conditions in 3D.
+                  The robot collects data autonomously for the entire growing season, no maintenance required.
+                </p>
+                <p className="body-text">
+                  Unlike a moored sensor, it can move to any depth and location on the farm to capture data.
                 </p>
               </Card>
             </Col>
@@ -41,7 +44,8 @@ class TechnologySection extends Component {
               <Card className="card-borderless">
                 <p className="monospace-font section-header-text bm-blue-color pt-5">WEB DASHBOARD</p>
                 <p className="body-text">
-                  Farmers can track growth, analyze data, and view real-time conditions through a web dashboard.
+                  A web dashboard allows farmers to monitor their site in real-time. Predictive models
+                  of crop growth and health help farmers improve yields, prevent losses, and plan tasks.
                 </p>
               </Card>
             </Col>
