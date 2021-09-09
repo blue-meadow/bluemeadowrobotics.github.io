@@ -44,8 +44,10 @@ class TechnologySection extends Component {
               <Card className="card-borderless">
                 <p className="monospace-font section-header-text bm-blue-color pt-5">WEB DASHBOARD</p>
                 <p className="body-text">
-                  A web dashboard allows farmers to monitor their site in real-time. Predictive models
-                  of crop growth and health help farmers improve yields, prevent losses, and plan tasks.
+                  A web dashboard allows farmers to monitor their site in real-time.
+                </p>
+                <p className="body-text">
+                  Predictive models of crop growth and health help farmers improve yields, prevent losses, and plan tasks.
                 </p>
               </Card>
             </Col>

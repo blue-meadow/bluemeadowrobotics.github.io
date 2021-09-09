@@ -51,7 +51,6 @@ class TeamCardMilo extends Component {
                 developed computer vision and mapping software at autonomous robotics startups including Skydio, Optimus
                 Ride, Adaviv, and Kespry.
               </p>
-              {/* where his research focused on robotic perception, state estimation, and learning. */}
               <Card.Link href="milo@bluemeadow.ai">milo@bluemeadow.ai</Card.Link>
               <Card.Link href="https://www.linkedin.com/in/milo-knowles/"><span className="fa fa-linkedin"></span></Card.Link>
               {/* <Card.Link href="https://twitter.com/milo_knowles"><span className="fa fa-twitter"></span></Card.Link> */}
