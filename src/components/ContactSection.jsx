@@ -19,11 +19,11 @@ class ContactSection extends Component {
                   We're building a hardware prototype, with pilot tests planned for
                   Spring 2022. If you're an ocean farmer, we'd love to hear from you.
                 </p>
-                <p className="pt-3 body-text">
+                {/* <p className="pt-3 body-text">
                   We're also growing our team! <span className="bm-blue-color">
                   If you're interested in working at an early-stage, climate-focused robotics
                   startup, please get in touch.</span>
-                </p>
+                </p> */}
               </Card>
             </Col>
             <Col xs={0} md={2}></Col>
