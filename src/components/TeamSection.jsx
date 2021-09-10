@@ -38,7 +38,7 @@ class TeamCardMilo extends Component {
         <Col xs={0} md={2}></Col>
         <Col xs={8} md={3} className="my-auto mx-auto">
           <div className="">
-            <img className="img-fluid rounded responsive-headshot" variant="top" src="images/team/milo-square.png"/>
+            <img className="img-fluid rounded responsive-headshot" variant="top" src="images/team/milo-square.jpg"/>
           </div>
         </Col>
         <Col xs={12} md={6} className="my-auto">
