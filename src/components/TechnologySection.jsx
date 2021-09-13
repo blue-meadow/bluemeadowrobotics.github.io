@@ -15,65 +15,52 @@ class TechnologySection extends Component {
               <Card className="card-borderless pt-3">
                 <p className="section-header-text monospace-font bm-blue-color AnimateOnScroll animate__animated animate__fadeIn">TECHNOLOGY</p>
                 <p className="section-standout-text">
-                  Blue Meadow is developing a low-cost monitoring robot for ocean farms.
+                  Blue Meadow is developing a data collection robot for ocean farms.
                 </p>
               </Card>
             </Col>
           </Row>
           <Row className="pt-5">
             <Col xs={12} md={7}>
-              <img className="img-fluid" src="images/wireframe2.svg"></img>
+              <img className="img-fluid" src="images/wireframe.svg"></img>
             </Col>
             <Col xs={12} md={5} className="my-auto">
               <Card className="card-borderless">
-                <p className="monospace-font section-header-text bm-blue-color pt-5">PERSISTENT, MOBILE SENSING</p>
+                <p className="monospace-font section-header-text bm-blue-color pt-5">FULL FARM SITE COVERAGE</p>
                 <p className="body-text">
-                  The robot collects data autonomously for the entire growing season, no maintenance required.
+                  The robot can capture data at any position and depth on the farm.
+                  This avoids the cost and complexity of deploying an array of static sensors.
                 </p>
+                <p className="monospace-font section-header-text bm-blue-color pt-5">MAINTENANCE-FREE DEPLOYMENT</p>
                 <p className="body-text">
-                  Unlike a moored sensor, it can move to any depth and location on the farm to capture data.
+                  After each mission, the robot secures itself to a buoy for recharging and data upload.
+                  It periodically lifts the sensor payload out of the water to prevent biofouling.
                 </p>
               </Card>
             </Col>
           </Row>
           <Row className="pt-5">
-            <Col xs={12} md={7}>
-              <img className="img-fluid" src="images/farmview.png"></img>
-            </Col>
-            <Col xs={12} md={5} className="my-auto">
-              <Card className="card-borderless">
-                <p className="monospace-font section-header-text bm-blue-color pt-5">WEB DASHBOARD</p>
-                <p className="body-text">
-                  A web dashboard allows farmers to monitor their site in real-time.
-                </p>
-                <p className="body-text">
-                  Predictive models of crop growth and health help farmers improve yields, prevent losses, and plan tasks.
-                </p>
-              </Card>
+            <Col>
+              <img className="img-fluid" src="images/farmview2.png"></img>
             </Col>
           </Row>
-          <Row className="pt-5 mt-5 pb-5">
-            <Col xs={0} md={2}></Col>
-            <Col xs={12} md={8}>
-              <Card className="AnimateOnScroll">
-                <Card.Body>
-                  <blockquote className="blockquote mb-0">
-                    <p className="body-text">
-                      {' '}
-                      The central challenge of ocean farming is that our “soil” turns over a thousand times a day,
-                      and we can't see what we grow. This means we need embedded sensors in our farms and have to
-                      deploy autonomous underwater “fish” to keep an eye on our crops. We need technology to track
-                      underwater weather.{' '}
-                    </p>
-                    <footer className="blockquote-footer">
-                      Bren Smith (Founder of GreenWave)
-                      {/* in <cite title="Source Title">Eat Like a Fish</cite> */}
-                    </footer>
-                  </blockquote>
-                </Card.Body>
+          <Row>
+            <Col xs={12} md={6} className="my-auto">
+              <Card className="card-borderless">
+                <p className="monospace-font section-header-text bm-blue-color pt-5">REAL-TIME DASHBOARD</p>
+                <p className="body-text">
+                  Farmers can track the state of their crops, equipment, and site remotely.
+                </p>
               </Card>
             </Col>
-            <Col xs={0} md={2}></Col>
+            <Col xs={12} md={6} className="my-auto">
+              <Card className="card-borderless">
+                <p className="monospace-font section-header-text bm-blue-color pt-5">DATA-DRIVEN INSIGHTS</p>
+                <p className="body-text">
+                  Predictive models of crop growth and fouling help farmers improve yields and plan tasks.
+                </p>
+              </Card>
+            </Col>
           </Row>
         </Container>
       </Container>
