@@ -4,6 +4,37 @@ import Container from 'react-bootstrap/Container';
 import { Card, Row, Col } from 'react-bootstrap'
 
 
+class MissionSection extends Component {
+  render() {
+    return (
+      <Container fluid className="background-white" id="mission-container">
+        <a id="Mission"></a>
+        <Container className="pt-5 pb-5">
+          <Row>
+            <Col xs={0} md={2}></Col>
+            <Col xs={12} md={8}>
+              <Card className="card-borderless pt-3">
+                <p className="section-header-text monospace-font bm-blue-color AnimateOnScroll animate__animated animate__fadeIn">MISSION</p>
+                <p className="pt-3 body-text">
+                  Seaweed, oysters, and other low-trophic crops can provide an abundant source of
+                  biomass while addressing climate change and restoring coastal ecosystems.
+                  They require zero inputs to produce, draw down carbon, de-acidify the ocean, and remove excess nutrients.
+                </p>
+                <p className="pt-3 body-text bm-blue-color">
+                  Blue Meadow's mission is to build technology that helps regenerative ocean farmers
+                  accelerate, scale, and measure their impact.
+                </p>
+              </Card>
+            </Col>
+            <Col xs={0} md={2}></Col>
+          </Row>
+        </Container>
+      </Container>
+    );
+  }
+};
+
+
 class OpportunitySection extends Component {
   render() {
     return (
@@ -75,4 +106,4 @@ class ChallengeSection extends Component {
 };
 
 
-export { OpportunitySection, ChallengeSection };
+export { OpportunitySection, ChallengeSection, MissionSection };

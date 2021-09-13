@@ -15,23 +15,26 @@ class TechnologySection extends Component {
               <Card className="card-borderless pt-3">
                 <p className="section-header-text monospace-font bm-blue-color AnimateOnScroll animate__animated animate__fadeIn">TECHNOLOGY</p>
                 <p className="section-standout-text">
-                  Blue Meadow is developing a low-cost monitoring robot for ocean farms.
+                  Blue Meadow is developing a data collection robot for ocean farms.
                 </p>
               </Card>
             </Col>
           </Row>
           <Row className="pt-5">
             <Col xs={12} md={7}>
-              <img className="img-fluid" src="images/wireframe2.svg"></img>
+              <img className="img-fluid" src="images/wireframe.svg"></img>
             </Col>
             <Col xs={12} md={5} className="my-auto">
               <Card className="card-borderless">
-                <p className="monospace-font section-header-text bm-blue-color pt-5">PERSISTENT, MOBILE SENSING</p>
+                <p className="monospace-font section-header-text bm-blue-color pt-5">FULL FARM SITE COVERAGE</p>
                 <p className="body-text">
-                  The robot collects data autonomously for the entire growing season, no maintenance required.
+                  The robot can position sensors at any depth and location on the farm to capture data.
+                  This avoids cost and complexity of deploying an array of static sensors.
                 </p>
+                <p className="monospace-font section-header-text bm-blue-color pt-5">MAINTENANCE-FREE DEPLOYMENT</p>
                 <p className="body-text">
-                  Unlike a moored sensor, it can move to any depth and location on the farm to capture data.
+                  After each mission, the robot secures itself to a buoy for recharging and data upload.
+                  It periodically lifts the sensor payload out of the water to prevent biofouling.
                 </p>
               </Card>
             </Col>
@@ -42,10 +45,11 @@ class TechnologySection extends Component {
             </Col>
             <Col xs={12} md={5} className="my-auto">
               <Card className="card-borderless">
-                <p className="monospace-font section-header-text bm-blue-color pt-5">WEB DASHBOARD</p>
+                <p className="monospace-font section-header-text bm-blue-color pt-5">REAL-TIME NOTIFICATIONS</p>
                 <p className="body-text">
-                  A web dashboard allows farmers to monitor their site in real-time.
+                  Farmers can check on their crops and equipment remotely, and are notified of potential problems in real time.
                 </p>
+                <p className="monospace-font section-header-text bm-blue-color pt-5">DATA-DRIVEN INSIGHTS</p>
                 <p className="body-text">
                   Predictive models of crop growth and health help farmers improve yields, prevent losses, and plan tasks.
                 </p>

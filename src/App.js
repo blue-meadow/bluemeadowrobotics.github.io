@@ -6,6 +6,7 @@ import './css/style.css';
 import TopNavbar from './components/TopNavbar';
 import Footer from './components/Footer';
 import { OpportunitySection, ChallengeSection } from './components/MissionSection';
+import { MissionSection } from './components/MissionSection';
 import TechnologySection from './components/TechnologySection';
 import TeamSection from './components/TeamSection';
 import ContactSection from './components/ContactSection';
@@ -18,9 +19,10 @@ class App extends Component {
       <div className="App">
         {/* <TopNavbar/> */}
         <BannerSection/>
-        <OpportunitySection/>
-        <ChallengeSection/>
         <TechnologySection/>
+        <MissionSection/>
+        {/* <OpportunitySection/> */}
+        {/* <ChallengeSection/> */}
         <TeamSection/>
         <ContactSection/>
         <Footer/>
