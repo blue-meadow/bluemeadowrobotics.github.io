@@ -13,18 +13,16 @@ class MissionSection extends Component {
           <Row>
             <Col xs={0} md={2}></Col>
             <Col xs={12} md={8}>
-              <Card className="card-borderless pt-3">
-                <p className="section-header-text monospace-font bm-blue-color AnimateOnScroll animate__animated animate__fadeIn">MISSION</p>
-                <p className="pt-3 body-text">
-                  Seaweed, oysters, and other low-trophic crops can provide an abundant source of
-                  biomass while addressing climate change and restoring coastal ecosystems.
-                  They require zero inputs to produce, draw down carbon, de-acidify the ocean, and remove excess nutrients.
-                </p>
-                <p className="pt-3 body-text bm-blue-color">
-                  Blue Meadow's mission is to build technology that helps regenerative ocean farmers
-                  accelerate, scale, and measure their impact.
-                </p>
-              </Card>
+              <p className="section-header-text monospace-font bm-blue-color AnimateOnScroll animate__animated animate__fadeIn">MISSION</p>
+              <p className="pt-3 body-text">
+                Seaweed, oysters, and other low-trophic crops can provide an abundant source of
+                biomass while addressing climate change and restoring coastal ecosystems.
+                They require zero inputs to produce, draw down carbon, de-acidify the ocean, and remove excess nutrients.
+              </p>
+              <p className="pt-3 body-text bm-blue-color">
+                Blue Meadow's mission is to build technology that helps regenerative ocean farmers
+                accelerate, scale, and measure their impact.
+              </p>
             </Col>
             <Col xs={0} md={2}></Col>
           </Row>

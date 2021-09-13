@@ -56,29 +56,6 @@ class TechnologySection extends Component {
               </Card>
             </Col>
           </Row>
-          <Row className="pt-5 mt-5 pb-5">
-            <Col xs={0} md={2}></Col>
-            <Col xs={12} md={8}>
-              <Card className="AnimateOnScroll">
-                <Card.Body>
-                  <blockquote className="blockquote mb-0">
-                    <p className="body-text">
-                      {' '}
-                      The central challenge of ocean farming is that our “soil” turns over a thousand times a day,
-                      and we can't see what we grow. This means we need embedded sensors in our farms and have to
-                      deploy autonomous underwater “fish” to keep an eye on our crops. We need technology to track
-                      underwater weather.{' '}
-                    </p>
-                    <footer className="blockquote-footer">
-                      Bren Smith (Founder of GreenWave)
-                      {/* in <cite title="Source Title">Eat Like a Fish</cite> */}
-                    </footer>
-                  </blockquote>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col xs={0} md={2}></Col>
-          </Row>
         </Container>
       </Container>
     );

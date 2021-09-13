@@ -48,7 +48,7 @@ class TeamSection extends Component {
           <Row className="">
             <Col xs={0} md={2}></Col>
             <Col xs={0} md={8}>
-              <p className="section-header-text monospace-font bm-blue-color pl-3 AnimateOnScroll animate__animated animate__fadeIn">TEAM</p>
+              <p className="section-header-text monospace-font bm-blue-color AnimateOnScroll animate__animated animate__fadeIn">TEAM</p>
             </Col>
             <Col xs={0} md={2}></Col>
           </Row>
