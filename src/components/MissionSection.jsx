@@ -7,13 +7,13 @@ import { Card, Row, Col } from 'react-bootstrap'
 class MissionSection extends Component {
   render() {
     return (
-      <Container fluid className="background-white" id="mission-container">
+      <Container fluid className="background-gray" id="mission-container">
         <a id="Mission"></a>
         <Container className="pt-5 pb-5">
           <Row>
             <Col xs={0} md={2}></Col>
             <Col xs={12} md={8}>
-              <p className="section-header-text monospace-font bm-blue-color AnimateOnScroll animate__animated animate__fadeIn">MISSION</p>
+              <p className="section-header-text monospace-font bm-blue-color AnimateOnScroll animate__animated animate__fadeIn">WHY OCEAN FARMING?</p>
               <p className="pt-3 body-text">
                 Seaweed, oysters, and other low-trophic crops can provide an abundant source of
                 biomass while addressing climate change and restoring coastal ecosystems.
