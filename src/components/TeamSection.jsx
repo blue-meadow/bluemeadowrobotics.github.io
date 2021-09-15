@@ -63,7 +63,7 @@ class TeamSection extends Component {
               <Card className="card-borderless" border="">
                 <Card.Body>
                   <Card.Title className="bm-blue-color team-card-title">Milo Knowles</Card.Title>
-                  <Card.Subtitle className="text-muted pb-3 monospace-font">CEO & Co-Founder</Card.Subtitle>
+                  <Card.Subtitle className="text-muted pb-3 monospace-font">CEO & Founder</Card.Subtitle>
                   <p className="team-card-text">
                     Milo earned his B.S in Computer Science and Masters in AI at MIT. He's
                     developed computer vision and mapping software at autonomous robotics startups including Skydio, Optimus
