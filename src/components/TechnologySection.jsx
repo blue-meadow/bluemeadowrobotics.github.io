@@ -41,7 +41,7 @@ class TechnologySection extends Component {
           </Row>
           <Row className="pt-5">
             <Col>
-              <img className="img-fluid" src="images/farmview2.png"></img>
+              <img className="img-fluid" src="images/farmview.png"></img>
             </Col>
           </Row>
           <Row>

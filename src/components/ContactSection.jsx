@@ -15,7 +15,7 @@ class ContactSection extends Component {
             <Col xs={12} md={8}>
               <p className="section-header-text monospace-font bm-blue-color AnimateOnScroll animate__animated animate__fadeIn">CONTACT</p>
               <p className="pt-3 body-text">
-                We're pilot testing the data collection robot in Spring 2022.
+                We're pilot testing on farms in Spring 2022.
                 If you're interesting in finding out more, please get in touch!
               </p>
             </Col>
