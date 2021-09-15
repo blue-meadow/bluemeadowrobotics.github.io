@@ -42,7 +42,7 @@ class TeamCardIzzy extends Component {
 class TeamSection extends Component {
   render() {
     return (
-      <Container fluid className="background-white">
+      <Container fluid className="background-gray">
         <a id="Team"></a>
         <Container className="pt-5 pb-5">
           <Row className="">
