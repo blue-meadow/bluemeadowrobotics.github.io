@@ -36,7 +36,7 @@ body {
 }
 
 .section-standout-text {
-  font-size: 28px;
+  font-size: 32px;
 }
 
 .body-text {
@@ -104,6 +104,7 @@ body:before {
   height: 100%;
   z-index: -10;
   background: url("/images/desktop2.jpg") no-repeat center center;
+  /* background: url("/images/cape.png"); */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
