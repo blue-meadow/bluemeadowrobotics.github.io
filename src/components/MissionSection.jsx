@@ -13,7 +13,7 @@ class MissionSection extends Component {
           <Row className="pt-5">
             <Col xs={0} md={2}></Col>
             <Col xs={12} md={8}>
-              <p className="section-header-text monospace-font bm-blue-color AnimateOnScroll animate__animated animate__fadeIn">OUR MISSION</p>
+              <p className="section-header-text monospace-font bm-blue-color AnimateOnScroll animate__animated animate__fadeIn">MISSION</p>
               <p className="pt-3 body-text">
                 Seaweed, oysters, and other low-trophic crops can provide an abundant source of
                 biomass while addressing climate change and restoring coastal ecosystems.
