@@ -10,13 +10,13 @@ class TechnologySection extends Component {
       <Container fluid className="background-white">
         <a id="Technology"></a>
         <Container className="pt-5 pb-5">
-          <Row>
+          {/* <Row>
             <Col>
               <p className="section-standout-text">
                 Blue Meadow is developing a platform for data-driven, regenerative ocean farming.
               </p>
             </Col>
-          </Row>
+          </Row> */}
           <Row className="mt-5">
             <Col>
               <p className="section-header-text monospace-font bm-blue-color AnimateOnScroll animate__animated animate__fadeIn">
@@ -27,7 +27,7 @@ class TechnologySection extends Component {
           <Row className="pb-3">
             <Col>
               <p className="body-text">
-                Our low-cost, autonomous data collection robot monitors water conditions throughout the growing season.
+                Our low-cost, vertical profiling system monitors environmental parameters throughout the growing season.
               </p>
             </Col>
           </Row>
@@ -38,7 +38,7 @@ class TechnologySection extends Component {
             <Col xs={12} md={5} className="my-auto">
               <p className="monospace-font section-header-text bm-blue-color">MAINTENANCE-FREE DEPLOYMENT</p>
               <p className="body-text">
-                The system is completely self-sufficient through solar charging, remote data upload, and biofouling mitigation.
+                Each unit is completely self-sufficient through solar charging, remote data upload, and biofouling prevention.
               </p>
             </Col>
           </Row>
@@ -49,7 +49,7 @@ class TechnologySection extends Component {
             <Col xs={12} md={5} className="my-auto">
               <p className="monospace-font section-header-text bm-blue-color">VERTICAL PROFILING</p>
               <p className="body-text">
-                The robot collects data throughout the water column using a tethered sensor package.
+                The system re-positions underwater sensors using a tether, which allows it to measure the entire water column.
               </p>
             </Col>
           </Row>
@@ -63,7 +63,7 @@ class TechnologySection extends Component {
           <Row className="pb-3">
             <Col>
               <p className="body-text">
-                Blue Meadow's farmer dashboard visualizes and translates raw data into actionable insights.
+                Blue Meadow's web dashboard translates environmental data into actionable insights for farmers.
               </p>
             </Col>
           </Row>
@@ -76,25 +76,26 @@ class TechnologySection extends Component {
           <Row>
             <Col xs={12} md={4} className="">
               <Card className="card-borderless">
-                <p className="monospace-font section-header-text bm-blue-color pt-5">PREVENT LOSSES</p>
+                <p className="monospace-font section-header-text bm-blue-color pt-5">REDUCE LOSSES</p>
                 <p className="body-text">
-                  Receive early warnings for disease, fouling, and other environmental risks.
+                  Early warnings for disease, fouling, and mortality can help farmers prevent significant losses in revenue.
                 </p>
               </Card>
             </Col>
             <Col xs={12} md={4} className="">
               <Card className="card-borderless">
-                <p className="monospace-font section-header-text bm-blue-color pt-5">PREDICT & IMPROVE YIELDS</p>
+                <p className="monospace-font section-header-text bm-blue-color pt-5">IMPROVE YIELDS</p>
                 <p className="body-text">
-                  Predict crop growth based on environmental factors at the farm site. Determine the optimal positioning of gear to maximize growth rate.
+                  Optimizing the positioning of crops based on environmental parameters enables
+                  farmers to maximize productivity on their site.
                 </p>
               </Card>
             </Col>
             <Col xs={12} md={4} className="">
               <Card className="card-borderless">
-                <p className="monospace-font section-header-text bm-blue-color pt-5">PLAN TASKS</p>
+                <p className="monospace-font section-header-text bm-blue-color pt-5">PLAN CRITICAL TASKS</p>
                 <p className="body-text">
-                  Plan seeding and harvesting times based on current and projected water conditions.
+                  Farmers can leverage forecasts of future crop growth and fouling risk to help guide harvest timing.
                 </p>
               </Card>
             </Col>
