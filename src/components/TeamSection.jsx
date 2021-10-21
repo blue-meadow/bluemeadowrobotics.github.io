@@ -13,7 +13,7 @@ class TeamSection extends Component {
           <Row className="">
             <Col xs={0} md={2}></Col>
             <Col xs={0} md={8}>
-              <p className="section-header-text monospace-font bm-blue-color AnimateOnScroll animate__animated animate__fadeIn">TEAM</p>
+              <p className="section-header-text monospace-font bm-color-blue AnimateOnScroll animate__animated animate__fadeIn">TEAM</p>
             </Col>
             <Col xs={0} md={2}></Col>
           </Row>
@@ -27,7 +27,7 @@ class TeamSection extends Component {
             <Col xs={12} md={6} className="my-auto">
               <Card className="card-borderless" border="">
                 <Card.Body>
-                  <Card.Title className="bm-blue-color team-card-title">Milo Knowles</Card.Title>
+                  <Card.Title className="bm-color-blue team-card-title">Milo Knowles</Card.Title>
                   <Card.Subtitle className="text-muted pb-3 monospace-font">CEO & Founder</Card.Subtitle>
                   <p className="team-card-text">
                     Milo earned his B.S in Computer Science and Masters in AI at MIT. He's
@@ -36,9 +36,6 @@ class TeamSection extends Component {
                   </p>
                   <Card.Link href="milo@bluemeadow.ai">milo@bluemeadow.ai</Card.Link>
                   <Card.Link href="https://www.linkedin.com/in/milo-knowles/"><span className="fa fa-linkedin"></span></Card.Link>
-                  {/* <Card.Link href="https://twitter.com/milo_knowles"><span className="fa fa-twitter"></span></Card.Link> */}
-                  {/* <Card.Link href="https://github.com/miloknowles"><span className="fa fa-github"></span></Card.Link> */}
-                  {/* <Card.Link href="https://miloknowles.github.io/">Website</Card.Link> */}
                 </Card.Body>
               </Card>
             </Col>
