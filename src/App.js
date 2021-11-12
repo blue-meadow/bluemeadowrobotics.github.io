@@ -3,26 +3,22 @@ import React, { Component } from 'react';
 
 import './css/style.css';
 
-import TopNavbar from './components/TopNavbar';
-import Footer from './components/Footer';
-import { OpportunitySection, ChallengeSection } from './components/MissionSection';
-import { MissionSection } from './components/MissionSection';
-import TechnologySection from './components/TechnologySection';
-import TeamSection from './components/TeamSection';
-import ContactSection from './components/ContactSection';
-import BannerSection from './components/BannerSection';
+// import TopNavbar from './components/TopNavbar';
+// import Footer from './components/Footer';
+// import { OpportunitySection, ChallengeSection } from './components/MissionSection';
+// import { MissionSection } from './components/MissionSection';
+// import TechnologySection from './components/TechnologySection';
+// import TeamSection from './components/TeamSection';
+// import ContactSection from './components/ContactSection';
+// import BannerSection from './components/BannerSection';
+import SimplePlaceholder from './components/SimplePlaceholder';
 
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <BannerSection/>
-        <TechnologySection/>
-        <MissionSection/>
-        <TeamSection/>
-        <ContactSection/>
-        <Footer/>
+        <SimplePlaceholder/>
       </div>
     );
   }
